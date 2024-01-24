@@ -39,6 +39,9 @@ img {
   list-style: none;
 }
 .store-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
   margin-bottom: 32px;
 }
 .store-list-item {
@@ -78,6 +81,7 @@ img {
   justify-content: center;
   align-items: center;
   display: flex;
+  margin: auto;
 }
 .backdrop {
   position: fixed;
