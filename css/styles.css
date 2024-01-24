@@ -34,6 +34,15 @@ img {
   font-weight: 700;
   line-height: normal;
   margin-bottom: 32px;
+  border-bottom: 1px solid var(--black-color);
+  text-align: left;
+}
+
+.store-header-secondary-span {
+  background: var(--white-color);
+  padding-right: 14px;
+  position: relative;
+  top: 14px;
 }
 
 .list {
