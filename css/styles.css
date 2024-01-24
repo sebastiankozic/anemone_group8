@@ -40,6 +40,7 @@ img {
 .about-section{
 margin: 0 16px;
 }
+<<<<<<< Updated upstream
 .about{
 color: var(--BLACK);
 font-family: Montserrat; sans-serif;
@@ -65,3 +66,37 @@ font-weight: 400;
 line-height: normal;
 padding: 47px 0 16px;
 }
+=======
+
+
+/*section About*/
+
+.about-section{
+  margin: 0 16px;
+  }
+  .about{
+  color: var(--BLACK);
+  font-family: Montserrat; sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700px;
+  line-height: normal;
+  border-bottom: 1px solid var(--BLACK);
+  text-align: left;
+  }
+  .about-span{
+  background: var(--WHITE);
+  padding-right: 14px;
+  position: relative;
+  top: 14px;  
+  }
+  .about-text{
+  color: var(--BLACK);
+  font-family: Montserrat; sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding: 47px 0 16px;
+  }
+>>>>>>> Stashed changes
