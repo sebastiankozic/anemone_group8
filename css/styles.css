@@ -48,7 +48,6 @@ font-style: normal;
 font-weight: 700px;
 line-height: normal;
 border-bottom: 1px solid var(--BLACK);
-position: relative;
 text-align: left;
 }
 .about-span{
@@ -56,8 +55,6 @@ background: var(--WHITE);
 padding-right: 14px;
 position: relative;
 top: 14px;  
-width: 183px;
-height: 1px;
 }
 .about-text{
 color: var(--BLACK);
