@@ -4,10 +4,61 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Blog-section</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div>
-        
+   <section class="blog-section">
+    <div class="container">
+    <div class="blog-title-line">
+      <h2 class="blog-title">BLOG</h2>
+      <div class="line"></div>
     </div>
+      <div class="flower-list">
+      <ul class="flowers">
+        <li>
+          <img 
+          src="./images/flower2.jpg"
+          srcset="./images/flower2 2x.jpg"
+          alt="green flower"
+          width="136"
+          height="181"/>
+        </li>
+        <li>
+          <img 
+          src="./images/flower1.jpg"
+          srcset="./images/flower1 2x.jpg"
+          alt="brown flower"
+          width="136"
+          height="181"/>
+        </li>
+        <li>
+          <img
+          src="./images/flower3.jpg"
+          srcset="./images/flower3 2x.jpg"
+          alt="blue flower"
+          width="136"
+          height="181"/>
+        </li>
+      </ul>
+      </div>
+      <ul class="icons">
+        <li class="icon-list">
+          <svg width="50" height="50">
+            <use href="./images/icons.svg#icon-down-arrow-left"></use>
+          </svg>
+        </li>
+        <li>
+          <svg width="50" height="50">
+            <use href="./images/icons.svg#icon-down-arrow-right"></use>
+          </svg>
+        </li>
+      </ul>
+      <h3 class="blog-text">Follow to our newsletter</h3>
+      <button type="button" class="blog-button"><p class="blog-button-text">Subscribe</p></button>
+    </div>
+   </section>
 </body>
 </html>
