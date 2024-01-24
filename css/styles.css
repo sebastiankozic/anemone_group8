@@ -28,6 +28,61 @@ img {
   padding: 0;
 }
 
+
+.header {
+  width: 288px;
+  height: 35px;
+}
+
+
+.header-mobile-layout {
+    display: flex;
+    max-width: 480px;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    height: 35px;
+}
+
+.hero {
+  width: 288px;
+height: 389px;
+display: flex;
+padding: 16px 16px;
+margin: 0 auto;
+flex-direction: row-reverse;
+}
+
+.hero-heading {
+color: var(--BLACK);
+text-align: center;
+font-family: 'Montserrat', sans-serif;
+font-size: 52px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+
+}
+
+.hero-subheading {
+  color: var(--BLACK);
+font-family: 'Montserrat', sans-serif;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.subheading-box {
+  width: 46px;
+  height: 34px;
+}
+
+
+
+
+
+
 .container {
   width: 320px;
   margin: 0 auto;
