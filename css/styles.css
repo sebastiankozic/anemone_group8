@@ -20,9 +20,9 @@ img {
   display: block;
 }
 .container {
-  max-width: 1158px;
+  max-width: 424px;
   margin: 0 auto;
-  padding: 0 15px;
+  padding: 0 16px;
 }
 .store {
 }
@@ -33,11 +33,13 @@ img {
   font-style: normal;
   font-weight: 700;
   line-height: normal;
+  margin-bottom: 32px;
 }
 .list {
   list-style: none;
 }
 .store-list {
+  margin-bottom: 32px;
 }
 .store-list-item {
 }
@@ -49,6 +51,8 @@ img {
   font-style: normal;
   font-weight: 500;
   line-height: normal;
+  margin-top: 12px;
+  margin-bottom: 6px;
 }
 .store-list-item-descr-p {
   color: var(--black-color);
