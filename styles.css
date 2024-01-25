@@ -64,6 +64,7 @@
 
 
   .blog-text {
+    padding-top: 14px;
     color: black;
     text-align: center;
     font-size: 18px;
@@ -80,6 +81,7 @@
   }
 
   .blog-button {
+    padding-top: 24px;
     display: flex;
     width: 170px;
     height: 40px;
