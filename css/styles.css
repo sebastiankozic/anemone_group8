@@ -51,6 +51,7 @@ display: flex;
 padding: 16px 16px;
 margin: 0 auto;
 flex-direction: row-reverse;
+flex-direction: column;
 }
 
 .hero-heading {
@@ -76,6 +77,21 @@ line-height: normal;
 .subheading-box {
   width: 46px;
   height: 34px;
+  display: flex;
+}
+
+.heading-box {
+  width: 288px;
+  height: 63px;
+  display: flex;
+}
+
+.image-home-page-box {
+  width: 145px;
+height: 274px;
+display: flex;
+align-items: center;
+padding: 72px 72px;
 }
 
 
