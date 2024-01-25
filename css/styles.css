@@ -28,17 +28,14 @@ img {
   padding: 0;
 }
 
-.container {
-  max-width: 1158px;
-  margin: 0 auto;
-  padding: 0 15px;
-}
 /*---------------section About-mobile-----------------*/
 
 
-.container {
-  max-width: 288px;
+.container-about {
+  margin: 0 auto;
+  max-width: 320px;
   height: 395px;
+  padding: 0 16px;
 }  
 .about{
   color: var(--BLACK);
@@ -78,11 +75,11 @@ img {
 
 
   /*--------------section About-tablet-----------------*/
-.container {
-  max-width: 720px;
+.container-about {
+  margin: 0 auto;
+  max-width: 768px;
   height: 301px;
-  padding: 0;
-  
+  padding: 0 24px;
 }
 .about-ul{
   display: flex;
