@@ -82,6 +82,8 @@ line-height: normal;
   display: flex;
   margin-left: 11px;
   margin-right: 14px;
+  position: absolute;
+  top: 50%;
 }
 
 
