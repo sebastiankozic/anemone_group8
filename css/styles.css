@@ -50,7 +50,6 @@ height: 389px;
 display: flex;
 padding: 16px 16px;
 margin: 0 auto;
-flex-direction: row-reverse;
 flex-direction: column;
 }
 
@@ -78,6 +77,8 @@ line-height: normal;
   width: 46px;
   height: 34px;
   display: flex;
+  margin-left: 11px;
+  margin-right: 14px;
 }
 
 .heading-box {
