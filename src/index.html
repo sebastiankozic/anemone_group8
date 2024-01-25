@@ -21,10 +21,11 @@
     <script src="main.js"></script>
   </head>
   <body>
-    <!-- W taki sposbu dodajemy fragmenty w główny HTML-plik strony. -->
-    <include src="./partials/example.html"></include>
-
-    <!-- Skrypt jest na samym dole kodu. On juz ma w sobie podłączony SAAS plik. -->
-    <!-- <script src="./index.js" type="module"></script> -->
+    <main>
+      <include src="./partials/store.html"></include>
+    </main>
+    <include src="./partials/footer.html"></include>
+    <include src="./partials/modal.html"></include>
+    <script src="./js/modal.js"></script>
   </body>
 </html>
