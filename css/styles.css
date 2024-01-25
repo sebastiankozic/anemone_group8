@@ -8,7 +8,7 @@
 body {
   background: var(--WHITE);
   color: var(--BLACK);
-  font-family: "Montserrat"; sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 ul {
@@ -33,12 +33,10 @@ img {
   margin: 0 auto;
   padding: 0 15px;
 }
-
-
 /*---------------section About-mobile-----------------*/
 
 
-.container{
+.container {
   max-width: 288px;
   height: 395px;
 }  
@@ -71,7 +69,7 @@ img {
     width: 288px;
     height: 178;
 }
- 
+
 /*------------------------------------------------------*/
 
 /* tablet styles */
@@ -80,10 +78,11 @@ img {
 
 
   /*--------------section About-tablet-----------------*/
-.container{
+.container {
   max-width: 720px;
-  padding: 0;
   height: 301px;
+  padding: 0;
+  
 }
 .about-ul{
   display: flex;
