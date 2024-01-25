@@ -51,6 +51,7 @@ display: flex;
 padding: 16px 16px;
 margin: 0 auto;
 flex-direction: column;
+position: relative;
 }
 
 .hero-heading {
@@ -61,6 +62,8 @@ font-size: 52px;
 font-style: normal;
 font-weight: 400;
 line-height: normal;
+position: absolute;
+bottom: 0;
 
 }
 
@@ -81,11 +84,7 @@ line-height: normal;
   margin-right: 14px;
 }
 
-.heading-box {
-  width: 288px;
-  height: 63px;
-  display: flex;
-}
+
 
 .image-home-page-box {
   width: 145px;
@@ -97,7 +96,11 @@ padding: 72px 72px;
 
 
 
-
+.heading-box {
+  width: 288px;
+  height: 63px;
+  display: flex;
+}
 
 
 .container {
