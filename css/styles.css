@@ -69,16 +69,6 @@ img {
   text-align: center;
 }
 
-.mobile-menu-close {
-  display: flex;
-  width: 100%;
-  justify-content: flex-end;
-}
-
-.icon-menu-close {
-  background-color: var(--PINK);
-}
-
 .modal-btn-close {
   position: absolute;
   top: 16px;
@@ -92,4 +82,4 @@ img {
   justify-content: center;
 }
 
-/*Koniec mobile menu */
+/* Koniec mobile menu */
