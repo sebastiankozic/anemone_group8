@@ -8,7 +8,7 @@
 body {
   background: var(--WHITE);
   color: var(--BLACK);
-  font-family: "Montserrat", sans-serif;
+  font-family: "Montserrat";
 }
 
 ul {
@@ -46,7 +46,7 @@ img {
 }  
 .about{
   color: var(--BLACK);
-  font-family: Montserrat; sans-serif;
+  font-family: Montserrat;
   font-size: 24px;
   font-style: normal;
   font-weight: 700px;
@@ -62,7 +62,7 @@ img {
 }
 .about-text{
   color: var(--BLACK);
-  font-family: Montserrat; sans-serif;
+  font-family: Montserrat;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -75,9 +75,6 @@ img {
 }
  
 /*------------------------------------------------------*/
-
-  
-
 
 /* tablet styles */
 
