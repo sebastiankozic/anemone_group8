@@ -8,7 +8,7 @@
 body {
   background: var(--WHITE);
   color: var(--BLACK);
-  font-family: "Montserrat";
+  font-family: "Montserrat"; sans-serif;
 }
 
 ul {
@@ -33,8 +33,6 @@ img {
   margin: 0 auto;
   padding: 0 15px;
 }
-
-
 
 
 /*---------------section About-mobile-----------------*/
