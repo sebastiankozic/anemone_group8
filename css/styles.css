@@ -35,39 +35,6 @@ img {
 }
 
 
-/*section About*/
-
-.about-section{
-margin: 0 16px;
-}
-<<<<<<< Updated upstream
-.about{
-color: var(--BLACK);
-font-family: Montserrat; sans-serif;
-font-size: 24px;
-font-style: normal;
-font-weight: 700px;
-line-height: normal;
-border-bottom: 1px solid var(--BLACK);
-text-align: left;
-}
-.about-span{
-background: var(--WHITE);
-padding-right: 14px;
-position: relative;
-top: 14px;  
-}
-.about-text{
-color: var(--BLACK);
-font-family: Montserrat; sans-serif;
-font-size: 16px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
-padding: 47px 0 16px;
-}
-=======
-
 
 /*section About*/
 
@@ -83,7 +50,7 @@ padding: 47px 0 16px;
   line-height: normal;
   border-bottom: 1px solid var(--BLACK);
   text-align: left;
-  }
+}
   .about-span{
   background: var(--WHITE);
   padding-right: 14px;
@@ -98,5 +65,39 @@ padding: 47px 0 16px;
   font-weight: 400;
   line-height: normal;
   padding: 47px 0 16px;
+  max-width: 288px;
   }
->>>>>>> Stashed changes
+
+
+
+ /* tablet styles */
+
+ @media screen and (min-width: 719px){
+
+
+  .about-section{
+    margin: 0 24px;
+  }
+  .image-about{
+    width: 344px;
+    height: 217px;
+    flex-shrink: 0;
+  }
+.about-div{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  columns: 2;
+  column-gap: 54px;
+}
+.about-image{
+  padding-top: 56px;
+}
+.about-text{
+  padding-top: 82px;
+  max-width: 322px;
+}
+
+
+
+ }
