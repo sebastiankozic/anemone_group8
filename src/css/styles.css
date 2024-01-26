@@ -99,7 +99,6 @@ img {
 /* tablet styles */
 
 @media screen and (min-width: 768px) {
-  /*--------------section About-tablet-----------------*/
   .container-about {
     margin: 0 auto;
     max-width: 768px;
@@ -132,10 +131,8 @@ img {
   .about-ul {
     justify-content: center;
   }
-  /*------------------------------------------------------*/
-
-  /*--bartek*/
 }
+  /*--bartek*/
 
 .js-menu-container {
   display: none;
@@ -362,3 +359,74 @@ img {
 .delivery-list li:hover::before {
   background-color: coral;
 }
+
+/* --Blog Marcin/Bartek-- */
+
+.blog-title-line {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.blog-title {
+  font-size: 24px;
+  font-weight: 700;
+  margin-right: 16px;
+}
+
+.line {
+  flex-grow: 1;
+  border-top: 1px solid black;
+}
+
+.flower-list {
+  width: 100%;
+}
+
+.flowers {
+  display: flex;
+  gap: 16px;
+}
+
+.icons {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  margin: 0 auto;
+}
+
+.blog-text {
+  color: black;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.blog-button-text {
+  color: var(--WHITE);
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 24px;
+  font-family: 'Montserrat';
+}
+
+.blog-button {
+  padding-top: 24px;
+  display: flex;
+  width: 170px;
+  height: 40px;
+  padding: 14px 28px;
+  justify-content: center;
+  align-items: center;
+  background-color: #e86f54;
+  border-radius: 38px;
+}
+
+.buttons-blog {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* -- Koniec Blog -- */
