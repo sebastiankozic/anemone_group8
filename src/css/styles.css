@@ -287,123 +287,78 @@ img {
 .close-btn {
 }
 
-/* --Blog Marcin/Bartek-- */
+/* KONRAD */
 
-.blog-section {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 0 10px;
-  width: 100%;
-}
-
-.blog-title-line {
-  display: flex;
-  align-items: center;
-  width: 100%;
-}
-
-<<<<<<< Updated upstream
-=======
-/* --Blog Marcin/Bartek-- */
-
-.blog-section {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  max-width: 480px;
-}
-
-.blog-title-line {
-  display: flex;
-  align-items: center;
-  width: 90%;
-}
-
->>>>>>> Stashed changes
-.blog-title {
+.delivery-section h2 {
+  font-family: Montserrat;
   font-size: 24px;
+  font-style: normal;
   font-weight: 700;
-  margin-right: 16px;
+  line-height: normal;
+  color: #000;
+  position: relative;
+  margin: 0 0 32px;
 }
 
-.line {
-  flex-grow: 1;
-  border-top: 1px solid black;
+.delivery-section h2::after {
+  content: '';
+  width: 148px;
+  height: 1px;
+  background-color: #000;
+  position: absolute;
+  top: 50%;
+  margin-left: 14px;
 }
 
-.flower-list {
-<<<<<<< Updated upstream
-  width: 100%;
-=======
-  width: 320px;
->>>>>>> Stashed changes
+.delivery-list {
+  counter-reset: item;
+  list-style-type: none;
+  margin: 0;
 }
 
-.flowers {
+.delivery-list li {
   display: flex;
-<<<<<<< Updated upstream
-  justify-content: space-between;
-=======
->>>>>>> Stashed changes
-  gap: 16px;
+
+  position: relative;
+  justify-content: space-around;
 }
 
-.icons {
-  list-style: none;
-  display: flex;
-  justify-content: center;
-  gap: 25px;
-  margin: 0 auto;
+.delivery-list li span {
+  color: #000;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin: 0 0 14px 8px;
 }
 
-.blog-text {
+.delivery-list li::before {
+  content: counter(item) '';
+  counter-increment: item;
   color: black;
-  text-align: center;
-  font-size: 18px;
-  font-weight: 500;
-}
-
-.blog-button-text {
-  color: var(--WHITE);
-  font-size: 18px;
-  font-weight: 500;
-  line-height: 24px;
-  font-family: 'Montserrat';
-}
-
-.blog-button {
-  padding-top: 24px;
-  display: flex;
-  width: 170px;
+  position: absolute;
+  background-color: transparent;
   height: 40px;
-  padding: 14px 28px;
-  justify-content: center;
-  align-items: center;
-  background-color: #e86f54;
-  border-radius: 38px;
-}
-
-.buttons-blog {
+  width: 40px;
+  border: 1px solid black;
+  border-radius: 50%;
+  font-family: Montserrat;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
   display: flex;
-  flex-direction: column;
-<<<<<<< Updated upstream
-  align-items: center;
-}
-
-=======
   justify-content: center;
   align-items: center;
+  left: -2em;
 }
 
-.blog-bottom-section {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  max-width: 480px;
-  margin: 0 auto;
+.delivery-img {
+  margin: 26px 0 0;
+  width: 100%;
 }
 
->>>>>>> Stashed changes
-/* -- Koniec Blog -- */
+.delivery-list li:hover::before {
+  background-color: coral;
+}
