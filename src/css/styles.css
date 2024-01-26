@@ -46,12 +46,11 @@ img {
 }
 
 .hero {
-  width: 288px;
-height: 389px;
-display: flex;
+ max-width: 320px; 
+/* display: flex; */
 padding: 16px 16px;
-margin: 0 auto;
-flex-direction: column;
+margin: auto;
+/* flex-direction: column; */
 position: relative;
 }
 
@@ -63,9 +62,14 @@ font-size: 52px;
 font-style: normal;
 font-weight: 400;
 line-height: normal;
-position: absolute;
+/* position: absolute; */
 bottom: 0;
 
+}
+
+.icon-shop-box {
+ padding-left: 10px;
+  
 }
 
 .hero-subheading {
@@ -78,13 +82,15 @@ line-height: normal;
 }
 
 .subheading-box {
-  width: 46px;
-  height: 34px;
+  /* width: 46px; */
+  /* height: 34px; */
   display: flex;
-  margin-left: 11px;
-  margin-right: 14px;
-  position: absolute;
-  top: 50%;
+  /* margin-left: 11px; */
+  /* margin-right: 14px; */
+  /* position: absolute; */
+  /* top: 50%; */
+  justify-content: space-between;
+  align-items: center;
 }
 
 
@@ -131,9 +137,9 @@ line-height: normal;
 .image-home-page-box {
   width: 145px;
 height: 274px;
-display: flex;
-align-items: center;
-padding: 72px 72px;
+/* display: flex; */
+/* align-items: center; */
+/* padding: 72px 72px; */
 }
 
 
@@ -216,6 +222,11 @@ padding: 72px 72px;
 /* tablet styles */
 
 @media screen and (min-width: 768px) {
+
+  .icon-shop-now {
+   width: 145px;
+   height: 145px;
+  }
   /*--------------section About-tablet-----------------*/
   .container-about {
     margin: 0 auto;
@@ -478,4 +489,12 @@ padding: 72px 72px;
 
 .delivery-list li:hover::before {
   background-color: coral;
+}
+
+
+@media screen and (min-width: 768px) {
+.icon-shop-now {
+  width: 166px;
+  height: 166px;
+ }
 }
