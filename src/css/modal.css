@@ -118,6 +118,9 @@
 .contact_us_modal_input:hover {
   border: 1px solid var(--FADEDBLACK);
 }
+.contact_us_modal_input:focus {
+  outline: none;
+}
 
 .Contact_us_modal_button {
   cursor: pointer;
