@@ -13,5 +13,18 @@
 <path fill="#fff" style="fill: var(--color2, #fff)" d="M-62.080-1505.28h204.8v1888.64h-204.8v-1888.64z"></path>
 <path fill="#000" style="fill: var(--color3, #000)" d="M7.703 17.067l-1.203-0.818 22.876-0.001v-0.64l-22.733 0.001 1.133-0.651-0.319-0.555-2.608 1.498 2.493 1.695 0.36-0.529z"></path>
 </symbol>
+<symbol id="icon-icon-menu" viewBox="0 0 32 32">
+<path fill="none" stroke="#fff" style="stroke: var(--color1, #fff)" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2.6667" d="M24 8l-16 16M8 8l16 16"></path>
+</symbol>
+<symbol id="icon-down-arrow-right" viewBox="0 0 32 32">
+<path fill="#fff" style="fill: var(--color1, #fff)" d="M0 0h32v32h-32v-32z"></path>
+<path fill="#fff" style="fill: var(--color2, #fff)" d="M-110.080-1505.28h204.8v1888.64h-204.8v-1888.64z"></path>
+<path fill="#000" style="fill: var(--color3, #000)" d="M21.674 14.79l1.203 0.818-22.876 0.001v0.64l22.733-0.001-1.133 0.651 0.319 0.555 2.608-1.498-2.493-1.695-0.36 0.529z"></path>
+</symbol>
+<symbol id="icon-down-arrow-left" viewBox="0 0 32 32">
+<path fill="#fff" style="fill: var(--color1, #fff)" d="M0 0h32v32h-32v-32z"></path>
+<path fill="#fff" style="fill: var(--color2, #fff)" d="M-62.080-1505.28h204.8v1888.64h-204.8v-1888.64z"></path>
+<path fill="#000" style="fill: var(--color3, #000)" d="M7.703 17.067l-1.203-0.818 22.876-0.001v-0.64l-22.733 0.001 1.133-0.651-0.319-0.555-2.608 1.498 2.493 1.695 0.36-0.529z"></path>
+</symbol>
 </defs>
 </svg>

@@ -303,6 +303,25 @@ img {
   width: 100%;
 }
 
+<<<<<<< Updated upstream
+=======
+/* --Blog Marcin/Bartek-- */
+
+.blog-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-width: 480px;
+}
+
+.blog-title-line {
+  display: flex;
+  align-items: center;
+  width: 90%;
+}
+
+>>>>>>> Stashed changes
 .blog-title {
   font-size: 24px;
   font-weight: 700;
@@ -315,12 +334,19 @@ img {
 }
 
 .flower-list {
+<<<<<<< Updated upstream
   width: 100%;
+=======
+  width: 320px;
+>>>>>>> Stashed changes
 }
 
 .flowers {
   display: flex;
+<<<<<<< Updated upstream
   justify-content: space-between;
+=======
+>>>>>>> Stashed changes
   gap: 16px;
 }
 
@@ -362,7 +388,22 @@ img {
 .buttons-blog {
   display: flex;
   flex-direction: column;
+<<<<<<< Updated upstream
   align-items: center;
 }
 
+=======
+  justify-content: center;
+  align-items: center;
+}
+
+.blog-bottom-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 480px;
+  margin: 0 auto;
+}
+
+>>>>>>> Stashed changes
 /* -- Koniec Blog -- */
