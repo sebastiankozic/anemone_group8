@@ -365,14 +365,6 @@ img {
 
 /* --Blog Marcin/Bartek-- */
 
-.blog-section {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 0 10px;
-  width: 100%;
-}
-
 .blog-title-line {
   display: flex;
   align-items: center;
@@ -396,7 +388,6 @@ img {
 
 .flowers {
   display: flex;
-  justify-content: space-between;
   gap: 16px;
 }
 
