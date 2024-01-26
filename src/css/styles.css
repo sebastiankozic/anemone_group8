@@ -29,7 +29,7 @@ img {
 }
 
 .container {
-  width: w;
+  width: auto;
   margin: 0 auto;
   padding: 32px 16px;
 }
@@ -55,4 +55,234 @@ img {
   line-height: 19px;
   letter-spacing: 0em;
   text-align: left;
+}
+
+/*---------------section About-mobile-----------------*/
+
+.container-about {
+  margin: 0 auto;
+  max-width: 320px;
+  height: 395px;
+  padding: 0 16px;
+}
+.about {
+  color: var(--BLACK);
+  font-family: Montserrat;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700px;
+  line-height: normal;
+  border-bottom: 1px solid var(--BLACK);
+  text-align: left;
+}
+.about-span {
+  background: var(--WHITE);
+  padding-right: 14px;
+  position: relative;
+  top: 14px;
+}
+.about-text {
+  color: var(--BLACK);
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding: 47px 0 16px;
+}
+.image-about {
+  width: 288px;
+  height: 178;
+}
+/*------------------------------------------------------*/
+
+/* tablet styles */
+
+@media screen and (min-width: 768px) {
+  /*--------------section About-tablet-----------------*/
+  .container-about {
+    margin: 0 auto;
+    max-width: 768px;
+    height: 301px;
+    padding: 0 24px;
+  }
+  .about-ul {
+    display: flex;
+    flex-direction: row;
+    columns: 2;
+  }
+  .about-text {
+    font-size: 20px;
+    padding: 28px 0 0;
+    line-height: 24.38px;
+    max-width: 322px;
+  }
+  .image-about {
+    width: 344px;
+    height: 217px;
+    margin-left: 54px;
+  }
+  .about {
+    margin-bottom: 54px;
+    font-size: 44px;
+  }
+  .about-span {
+    top: 28px;
+  }
+  .about-ul {
+    justify-content: center;
+  }
+  /*------------------------------------------------------*/
+
+  /*--bartek*/
+}
+
+.js-menu-container {
+  display: none;
+}
+
+.js-menu-container.is-open {
+  display: flex;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: var(--PINK);
+  flex-flow: column;
+  height: 100%;
+}
+
+.menu-links {
+  text-decoration: none;
+  color: var(--WHITE);
+  font-size: 20px;
+  font-weight: 400;
+  display: inline-block;
+  padding-bottom: 26px;
+}
+
+.mobile-menu {
+  display: flex;
+  flex-flow: column;
+  flex-grow: 2;
+  justify-content: center;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.modal-btn-close {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  width: 24px;
+  height: 24px;
+  background-color: var(--PINK);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    width: 720px;
+  }
+}
+
+.store {
+}
+
+.store-header-secondary {
+  color: var(--BLACK);
+
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 32px;
+  border-bottom: 1px solid var(--BLACK);
+  text-align: left;
+}
+
+.store-header-secondary-span {
+  background: var(--WHITE);
+  padding-right: 14px;
+  position: relative;
+  top: 14px;
+}
+
+.store-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  margin-bottom: 32px;
+}
+
+.store-list-item {
+}
+.store-list-item-descr {
+}
+
+.store-list-item-descr-h-tertiary {
+  color: var(--BLACK);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-top: 12px;
+  margin-bottom: 6px;
+}
+
+.store-list-item-descr-p {
+  color: var(--BLACK);
+
+  font-family: "Montserrat";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  opacity: 0.6;
+}
+
+.store-button {
+  background-color: var(--PINK);
+  color: var(--WHITE);
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.2;
+  width: 208px;
+  height: 44px;
+  padding: 14px 28px;
+  border-radius: 38px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  margin: auto;
+}
+
+.backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(46, 47, 66, 0.4);
+  padding: 72px 24px 24px 24px;
+}
+
+.is-hidden {
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+}
+
+.modal {
+}
+
+.modal-p {
+  color: yellow;
+}
+
+.close-btn {
 }
