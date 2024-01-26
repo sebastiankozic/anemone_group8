@@ -33,6 +33,11 @@ img {
   margin: 0 auto;
   padding: 32px 16px;
 }
+@media screen and (min-width: 768px) {
+  .container {
+    width: 720px;
+  }
+}
 
 .store {
 }
