@@ -33,17 +33,16 @@ img {
 .header {
   width: 288px;
   height: 35px;
-  margin: 0 auto;
+  margin: 16px auto;
 }
 
-
 .header-mobile-layout {
-    display: flex;
-    max-width: 480px;
-    justify-content: space-between;
-    align-items: center;
-    margin: auto;
-    height: 35px;
+  display: flex;
+  max-width: 480px;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+  height: 35px;
 }
 
 .header-list {
@@ -54,9 +53,10 @@ display: none;
 
 .hero {
  max-width: 320px; 
+ height: 395px;
 /* display: flex; */
-padding: 16px 16px;
-margin: auto;
+padding: 0 16px;
+margin: 0 auto;
 /* flex-direction: column; */
 position: relative;
 }
@@ -69,7 +69,7 @@ font-size: 52px;
 font-style: normal;
 font-weight: 400;
 line-height: normal;
-/* position: absolute; */
+position: absolute;
 bottom: 0;
 
 }
@@ -229,6 +229,24 @@ height: 274px;
 @media screen and (min-width: 768px) {
 
   /* header-tablet */
+  
+  .header {
+ width: 720px;
+ height: 57px;
+ flex-shrink: 0;
+ margin: 24px auto;
+}
+
+.header-mobile-layout {
+  justify-content: space-between;
+  align-items: center;
+  max-width: 768px;
+  height: 57px;
+  margin: 24px auto;
+  display: flex;
+
+
+  
   .header-list {
     display: flex;
   width: 469px;
@@ -248,11 +266,49 @@ font-weight: 400;
 line-height: normal;
   }
 
+  .burger-button {
+    display: none;
+  }
+
+  .logo-icon {
+    width: 72px;
+height: 57px;
+flex-shrink: 0;
+order: -1;
+margin-right: 80px;
+  }
+
+  .tel-icon {
+    width: 24px;
+height: 24px;
+flex-shrink: 0;
+  }
+
 /* section Hero-tablet */
+.hero {
+  max-width: 768px; 
+  height: 301px;
+ /* display: flex; */
+ padding: 0 24px;
+ margin: 0 auto;
+ /* flex-direction: column; */
+ position: relative;
+ }
+
 .icon-shop-now {
   width: 145px;
   height: 145px;
  }
+
+ 
+ .hero-heading {
+ font-size: 120px;
+ }
+
+ .hero-subheading {
+  font-size: 24px;
+ }
+
 
 
   /*--------------section About-tablet-----------------*/
@@ -523,4 +579,5 @@ line-height: normal;
   width: 166px;
   height: 166px;
  }
+}
 }
