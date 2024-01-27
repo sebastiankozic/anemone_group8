@@ -57,6 +57,10 @@ img {
   text-align: left;
 }
 
+.icon-footer {
+  fill: white;
+}
+
 /*---------------section About-mobile-----------------*/
 
 .container-about {
@@ -132,7 +136,7 @@ img {
     justify-content: center;
   }
 }
-  /*--bartek*/
+/*--bartek*/
 
 .js-menu-container {
   display: none;
