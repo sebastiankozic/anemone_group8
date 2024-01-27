@@ -1,6 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" style="position:absolute;width:0;height:0;overflow:hidden">
 <defs>
-<<<<<<< HEAD
 
 <symbol id="facebook" viewBox="0 0 28 28">
     <path d="M21.0003 2.33334H17.5003C15.9532 2.33334 14.4695 2.94792 13.3755 4.04188C12.2816 5.13584 11.667 6.61957 11.667 8.16667V11.6667H8.16699V16.3333H11.667V25.6667H16.3337V16.3333H19.8337L21.0003 11.6667H16.3337V8.16667C16.3337 7.85725 16.4566 7.5605 16.6754 7.34171C16.8942 7.12292 17.1909 7 17.5003 7H21.0003V2.33334Z" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
@@ -22,7 +21,6 @@
       <path d="M4 5.333h24V8H4V5.333zm8 9.334h16v2.667H12v-2.667zM4 24h24v2.667H4V24z"/>
     </symbol>
     <symbol id="icon-close" viewBox="0 0 32 32">
-=======
 <symbol id="icon-icon-menu" viewBox="0 0 32 32">
 <path fill="none" stroke="#fff" style="stroke: var(--color1, #fff)" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2.6667" d="M24 8l-16 16M8 8l16 16"></path>
 </symbol>
@@ -52,7 +50,6 @@
 </defs>
 </svg>
 <symbol id="icon-close" viewBox="0 0 32 32">
->>>>>>> main
 <path d="M29.262 0.055c-0.661 0.112-0.391-0.139-7.063 6.526l-6.199 6.192-12.107-12.105-1.611 1.614-1.614 1.611 12.105 12.107-6.194 6.199c-4.247 4.251-6.231 6.272-6.306 6.425-0.455 0.914-0.32 1.918 0.359 2.642 0.271 0.296 0.619 0.516 1.013 0.629l0.016 0.004c0.539 0.167 1.161 0.105 1.717-0.171 0.153-0.075 2.174-2.059 6.425-6.306l6.199-6.194 12.107 12.105 1.611-1.614 1.614-1.611-12.105-12.107 6.194-6.199c4.247-4.251 6.231-6.272 6.306-6.425 0.48-0.962 0.295-2.039-0.471-2.754-0.537-0.503-1.221-0.695-1.995-0.567z"></path>
 </symbol>
 <symbol id="icon-Error-logo" viewBox="0 0 32 32">
