@@ -46,20 +46,39 @@ img {
 
 .footer-header {
   font-family: Inter;
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 700;
-  line-height: 24px;
-  letter-spacing: 0em;
+  line-height: 21.78px;
   text-align: left;
+  padding-bottom: 18px;
 }
 
 .footer-content {
   font-family: Inter;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 500;
-  line-height: 19px;
-  letter-spacing: 0em;
+  line-height: 16.94px;
   text-align: left;
+  padding-bottom: 12px;
+  max-width: 128px;
+  word-wrap: break-word;
+}
+
+.icon-footer {
+  fill: none;
+}
+
+.footer-flex {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  margin-bottom: 32px;
+  justify-content: space-between;
+}
+
+.footer-container {
+  max-width: 320px;
+  flex-wrap: wrap;
 }
 
 /*---------------section About-mobile-----------------*/
@@ -237,7 +256,6 @@ img {
 
 .store-list-item-descr-p {
   color: var(--BLACK);
-
   font-family: 'Montserrat';
   font-size: 12px;
   font-style: normal;
