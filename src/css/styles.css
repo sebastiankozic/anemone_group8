@@ -3,6 +3,11 @@
   --DARK-PINK: #e25b41;
   --WHITE: #ffffff;
   --BLACK: #000000;
+  --LIGHTGREY: #5c5c5c;
+  --INACTIVE_BROWN: rgba(232, 111, 84, 0.4);
+  --FADEDBLACK: rgba(17, 17, 17, 0.7);
+  --CORRECTCOLOR: #3cbc81;
+  --ERRORCOLOR: #e74a3b;
 }
 
 body {
@@ -29,7 +34,7 @@ img {
 }
 
 .container {
-  width: auto;
+  max-width: 1232px;
   margin: 0 auto;
   padding: 32px 16px;
 }
@@ -41,20 +46,39 @@ img {
 
 .footer-header {
   font-family: Inter;
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 700;
-  line-height: 24px;
-  letter-spacing: 0em;
+  line-height: 21.78px;
   text-align: left;
+  padding-bottom: 18px;
 }
 
 .footer-content {
   font-family: Inter;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 500;
-  line-height: 19px;
-  letter-spacing: 0em;
+  line-height: 16.94px;
   text-align: left;
+  padding-bottom: 12px;
+  word-wrap: break-word;
+  max-width: auto;
+}
+
+.icon-footer {
+  fill: none;
+}
+
+.footer-flex {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  margin-bottom: 32px;
+  justify-content: space-evenly;
+}
+
+.footer-container {
+  max-width: 320px;
+  flex-wrap: wrap;
 }
 
 /*---------------section About-mobile-----------------*/
@@ -99,7 +123,6 @@ img {
 /* tablet styles */
 
 @media screen and (min-width: 768px) {
-  /*--------------section About-tablet-----------------*/
   .container-about {
     margin: 0 auto;
     max-width: 768px;
@@ -132,7 +155,6 @@ img {
   .about-ul {
     justify-content: center;
   }
-  /*------------------------------------------------------*/
 }
 
 /*--bartek*/
@@ -193,7 +215,18 @@ img {
   }
 }
 
-.store {
+/* --- Sekcja Store --- */
+
+.container-store {
+  max-width: 320px;
+  padding: 0 16px;
+  width: auto;
+  margin: 0 auto;
+}
+@media screen and (min-width: 768px) {
+  .container-store {
+    max-width: 768px;
+  }
 }
 
 .store-header-secondary {
@@ -222,11 +255,6 @@ img {
   margin-bottom: 32px;
 }
 
-.store-list-item {
-}
-.store-list-item-descr {
-}
-
 .store-list-item-descr-h-tertiary {
   color: var(--BLACK);
   font-size: 16px;
@@ -239,7 +267,6 @@ img {
 
 .store-list-item-descr-p {
   color: var(--BLACK);
-
   font-family: 'Montserrat';
   font-size: 12px;
   font-style: normal;
@@ -281,15 +308,11 @@ img {
   pointer-events: none;
 }
 
-.modal {
-}
-
 .modal-p {
   color: yellow;
 }
 
-.close-btn {
-}
+/* --- Koniec sekcji Store --- */
 
 /* KONRAD */
 
