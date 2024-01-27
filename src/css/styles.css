@@ -214,6 +214,22 @@ img {
   }
 }
 
+/* --- Sekcja Store --- */
+
+.container-store {
+  max-width: 320px;
+  padding: 0 16px;
+  width: auto;
+  margin: 0 auto;
+}
+@media screen and (min-width: 768px) {
+  .container-store {
+    max-width: 768px;
+  }
+}
+  .store {
+}
+
 .store-header-secondary {
   color: var(--BLACK);
 
@@ -296,6 +312,11 @@ img {
 .modal-p {
   color: yellow;
 }
+
+.close-btn {
+}
+
+/* --- Koniec sekcji Store --- */
 
 /* KONRAD */
 
