@@ -205,8 +205,19 @@ img {
   }
 }
 
-/* Sekcja Store */
+/* --- Sekcja Store --- */
 
+.container-store {
+  max-width: 320px;
+  padding: 0 16px;
+  width: auto;
+  margin: 0 auto;
+}
+@media screen and (min-width: 768px) {
+  .container-store {
+    max-width: 768px;
+  }
+}
 .store {
 }
 
@@ -304,7 +315,7 @@ img {
 .close-btn {
 }
 
-/* Koniec sekcji Store */
+/* --- Koniec sekcji Store --- */
 
 /* KONRAD */
 
