@@ -161,6 +161,8 @@ img {
 
 .js-menu-container {
   display: none;
+  transform: translateX(100%);
+  transition: transform 250ms ease-in-out;
 }
 
 .js-menu-container.is-open {
@@ -173,6 +175,7 @@ img {
   background-color: var(--PINK);
   flex-flow: column;
   height: 100%;
+  transform: translateX(0);
 }
 
 .menu-links {
@@ -205,8 +208,6 @@ img {
   align-items: center;
   justify-content: center;
 }
-
-/*----*/
 
 @media screen and (min-width: 768px) {
   .container {
@@ -777,6 +778,9 @@ img {
     align-items: center;
     background-color: #e86f54;
     border-radius: 38px;
+  }
+  .mobile-menu-section {
+    display: none;
   }
 }
 
