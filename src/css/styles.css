@@ -385,7 +385,6 @@ img {
   pointer-events: none;
   visibility: hidden;
 }
-
 .modal {
   position: absolute;
   top: 50%;
@@ -396,8 +395,7 @@ img {
   padding: 28px 16px;
   transition: transform 0.25s cubic-bezier(0.4, 0, 0.2, 1);
 }
-
-.close_button {
+.close_modal_button {
   width: 18px;
   height: 18px;
   background-color: transparent;
@@ -406,10 +404,10 @@ img {
   position: absolute;
   top: 16px;
   right: 16px;
+  transition: transform 0.25s ease;
 }
-.close_modal_btn {
-  height: 18px;
-  width: 18px;
+.close_modal_button:hover {
+  transform: scale(1.05);
 }
 .contact_us_modal_wraper {
   display: flex;
@@ -442,76 +440,84 @@ img {
   justify-content: space-between;
   gap: 8px;
 }
-.valid_modal_icon {
-  display: none;
+.valid {
+  color: var(--CORRECTCOLOR);
 }
-.invalid_modal_icon {
-  display: none;
+
+.invalid {
+  color: var(--ERRORCOLOR);
 }
-.contact_us_modal_input:valid + .valid_modal_icon {
-  display: inline-block;
+.valid_name_modal_icon{
+display: none;
+position: absolute;
+top: 48%;
+left: 86%;
+}
+.invalid_name_modal_icon{
+  display: none;
   position: absolute;
   top: 48%;
   left: 86%;
+}
+.valid_email_modal_icon{
+  display: none;
+  position: absolute;
+  top:67%;
+  left: 86%;
+}
+.invalid_email_modal_icon {
+  display: none;
+  position: absolute;
+  top:67%;
+  left: 86%;
+}
+.contact_us_name_modal_input:valid + .valid_name_modal_icon{
+  display: inline-block;
   fill: var(--CORRECTCOLOR);
 }
-.contact_us_modal_input:invalid + .invalid_modal_icon {
+.invalid_name_modal_icon.wrong{
   display: inline-block;
-  position: absolute;
-  top: 48%;
-  left: 86%;
   fill: var(--ERRORCOLOR);
 }
-
-.contact_us_modal_input:not(:placeholder-shown):required:valid {
+.contact_us_email_modal_input:valid + .valid_email_modal_icon{
+  display: inline-block;
+  fill: var(--CORRECTCOLOR);
+}
+.invalid_email_modal_icon.wrong {
+display: inline-block;
+fill: var(--ERRORCOLOR);
+}
+.contact_us_email_modal_input:not(:placeholder-shown):required:valid,
+.contact_us_name_modal_input:not(:placeholder-shown):required:valid {
   border-color: var(--CORRECTCOLOR);
+  transform: scale(1.005);
 }
-
-.contact_us_modal_input:not(:placeholder-shown):required:invalid {
+.contact_us_email_modal_input:not(:placeholder-shown):required:invalid,
+.contact_us_name_modal_input:not(:placeholder-shown):required:invalid {
   border-color: var(--ERRORCOLOR);
+  transform: scale(1.005);
 }
-
-.contact_us_modal_input {
+.contact_us_name_modal_input {
   border-radius: 4px;
   border: 1px solid #d7d7d7;
   width: 240px;
   display: flex;
   height: 35px;
-  padding: 10px 12px 10px 12px;
+  padding: 10px 24px 10px 12px;
   align-items: center;
   font-family: Montserrat;
   font-size: 12px;
   font-weight: 500;
+  transition: transform 0.25s ease;
 }
-
-.contact_us_modal_input:hover {
+.contact_us_email_modal_input:hover,
+.contact_us_name_modal_input:hover {
   border: 1px solid var(--FADEDBLACK);
+  transform: scale(1.005);
 }
-.contact_us_modal_input:focus {
+.contact_us_email_modal_input:focus,
+.contact_us_name_modal_input:focus {
   outline: none;
-}
-
-.contact_us_email_modal_input:valid + .valid_modal_icon {
-  display: inline-block;
-  position: absolute;
-  top: 48%;
-  left: 86%;
-  fill: var(--CORRECTCOLOR);
-}
-.contact_us_email_modal_input:invalid + .invalid_modal_icon {
-  display: inline-block;
-  position: absolute;
-  top: 48%;
-  left: 86%;
-  fill: var(--ERRORCOLOR);
-}
-
-.contact_us_email_modal_input:not(:placeholder-shown):required:valid {
-  border-color: var(--CORRECTCOLOR);
-}
-
-.contact_us_email_modal_input:not(:placeholder-shown):required:invalid {
-  border-color: var(--ERRORCOLOR);
 }
 .contact_us_email_modal_input {
   border-radius: 4px;
@@ -519,21 +525,15 @@ img {
   width: 240px;
   display: flex;
   height: 35px;
-  padding: 10px 12px 10px 12px;
+  padding: 10px 24px 10px 12px;
   align-items: center;
   font-family: Montserrat;
   font-size: 12px;
   font-weight: 500;
-}
-
-.contact_us_email_modal_input:hover {
-  border: 1px solid var(--FADEDBLACK);
-}
-.contact_us_email_modal_input:focus {
-  outline: none;
+  transition: transform 0.25s ease;
 }
 .contact_us_modal_button {
-  cursor: pointer;
+  cursor: not-allowed;
   color: var(--WHITE);
   font-family: Montserrat;
   font-size: 14px;
@@ -549,6 +549,12 @@ img {
 }
 .contact_us_modal_button.valid {
   background: var(--PINK);
+  cursor:pointer;
+  transition: transform 0.25s ease;
+}
+.contact_us_modal_button.valid:hover{
+  background: var(--DARK-PINK);
+  transform: scale(1.005);
 }
 
 @media screen and (min-width: 768px) {
@@ -581,19 +587,24 @@ img {
     font-size: 14px;
   }
   .contact_us_email_modal_input,
-  .contact_us_modal_input {
+  .contact_us_name_modal_input {
     width: 416px;
     padding: 16px 0 16px 16px;
     height: 49px;
     font-size: 14px;
   }
+  .valid_name_modal_icon,
+.valid_email_modal_icon,
+.invalid_name_modal_icon,
+.invalid_email_modal_icon {
+  width: 20px
+}
   .contact_us_modal_button {
     width: 416px;
     padding: 14px 0px;
     font-size: 18px;
   }
 }
-
 @media screen and (min-width: 1280px) {
   .modal {
     width: 480px;
@@ -601,7 +612,7 @@ img {
 }
 
 /* --Blog Marcin/Bartek-- */
-
+ 
 .blog-title-line {
   display: flex;
   align-items: center;
