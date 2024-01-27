@@ -169,20 +169,39 @@ height: 274px;
 
 .footer-header {
   font-family: Inter;
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 700;
-  line-height: 24px;
-  letter-spacing: 0em;
+  line-height: 21.78px;
   text-align: left;
+  padding-bottom: 18px;
 }
 
 .footer-content {
   font-family: Inter;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 500;
-  line-height: 19px;
-  letter-spacing: 0em;
+  line-height: 16.94px;
   text-align: left;
+  padding-bottom: 12px;
+  max-width: 128px;
+  word-wrap: break-word;
+}
+
+.icon-footer {
+  fill: none;
+}
+
+.footer-flex {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  margin-bottom: 32px;
+  justify-content: space-between;
+}
+
+.footer-container {
+  max-width: 320px;
+  flex-wrap: wrap;
 }
 
 /*---------------section About-mobile-----------------*/
@@ -345,7 +364,7 @@ flex-shrink: 0;
     justify-content: center;
   }
 }
-  /*--bartek*/
+/*--bartek*/
 
 .js-menu-container {
   display: none;
@@ -399,8 +418,7 @@ flex-shrink: 0;
   }
 }
 
-.store {
-}
+
 
 .store-header-secondary {
   color: var(--BLACK);
@@ -428,10 +446,7 @@ flex-shrink: 0;
   margin-bottom: 32px;
 }
 
-.store-list-item {
-}
-.store-list-item-descr {
-}
+
 
 .store-list-item-descr-h-tertiary {
   color: var(--BLACK);
@@ -445,7 +460,6 @@ flex-shrink: 0;
 
 .store-list-item-descr-p {
   color: var(--BLACK);
-
   font-family: 'Montserrat';
   font-size: 12px;
   font-style: normal;
@@ -487,15 +501,13 @@ flex-shrink: 0;
   pointer-events: none;
 }
 
-.modal {
-}
+
 
 .modal-p {
   color: yellow;
 }
 
-.close-btn {
-}
+
 
 /* KONRAD */
 
