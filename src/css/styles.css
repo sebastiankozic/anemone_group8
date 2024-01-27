@@ -133,9 +133,9 @@ img {
     justify-content: center;
   }
   /*------------------------------------------------------*/
-
-  /*--bartek*/
 }
+
+/*--bartek*/
 
 .js-menu-container {
   display: none;
@@ -143,7 +143,8 @@ img {
 
 .js-menu-container.is-open {
   display: flex;
-  position: fixed;
+  position: absolute;
+  z-index: 2;
   top: 0;
   left: 0;
   right: 0;
@@ -182,6 +183,8 @@ img {
   align-items: center;
   justify-content: center;
 }
+
+/*----*/
 
 @media screen and (min-width: 768px) {
   .container {
@@ -703,7 +706,6 @@ img {
 
 @media screen and (min-width: 768px) {
   .blog-section {
-    margin: 0 auto;
     max-width: 768px;
     padding: 100px 24px;
   }
@@ -715,8 +717,6 @@ img {
 
   .blog-title {
     font-size: 44px;
-    font-weight: 700;
-    margin-right: 16px;
   }
 
   .flowers {
@@ -735,13 +735,32 @@ img {
     padding-bottom: 32px;
     padding-top: 18px;
   }
+
+  .blog-button-text {
+    color: var(--WHITE);
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 24px;
+    font-family: 'Montserrat';
+  }
+
+  .blog-button {
+    padding-top: 24px;
+    display: flex;
+    width: 280px;
+    height: 64px;
+    padding: 16px 32px;
+    justify-content: center;
+    align-items: center;
+    background-color: #e86f54;
+    border-radius: 38px;
+  }
 }
 
 @media screen and (min-width: 1158px) {
   .blog-section {
-    margin: 0 auto;
     max-width: 1232px;
-    padding: 100px 24px;
+    padding: 100px 0;
   }
 
   .flower {
@@ -756,6 +775,7 @@ img {
   .flowers {
     gap: 31px;
     padding-top: 122px;
+    justify-content: center;
   }
 }
 /* -- Koniec Blog -- */
