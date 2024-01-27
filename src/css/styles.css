@@ -227,8 +227,6 @@ img {
     max-width: 768px;
   }
 }
-  .store {
-}
 
 .store-header-secondary {
   color: var(--BLACK);
@@ -311,9 +309,6 @@ img {
 
 .modal-p {
   color: yellow;
-}
-
-.close-btn {
 }
 
 /* --- Koniec sekcji Store --- */
