@@ -41,24 +41,27 @@ img {
 
 .footer-header {
   font-family: Inter;
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 700;
-  line-height: 24px;
-  letter-spacing: 0em;
+  line-height: 21.78px;
   text-align: left;
 }
 
 .footer-content {
   font-family: Inter;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 500;
-  line-height: 19px;
-  letter-spacing: 0em;
+  line-height: 16.94px;
   text-align: left;
 }
 
 .icon-footer {
-  fill: white;
+  fill: none;
+}
+
+.footer-flex {
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 /*---------------section About-mobile-----------------*/
