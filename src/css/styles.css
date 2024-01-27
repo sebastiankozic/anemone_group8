@@ -139,6 +139,8 @@ img {
 
 .js-menu-container {
   display: none;
+  transform: translateX(100%);
+  transition: transform 250ms ease-in-out;
 }
 
 .js-menu-container.is-open {
@@ -151,6 +153,7 @@ img {
   background-color: var(--PINK);
   flex-flow: column;
   height: 100%;
+  transform: translateX(0);
 }
 
 .menu-links {
@@ -183,8 +186,6 @@ img {
   align-items: center;
   justify-content: center;
 }
-
-/*----*/
 
 @media screen and (min-width: 768px) {
   .container {
@@ -755,6 +756,9 @@ img {
     background-color: #e86f54;
     border-radius: 38px;
   }
+  .mobile-menu-section {
+    display: none;
+  }
 }
 
 @media screen and (min-width: 1158px) {
@@ -779,3 +783,166 @@ img {
   }
 }
 /* -- Koniec Blog -- */
+
+/* paweł content */
+
+/* Header-mobile */
+
+.header {
+  width: 288px;
+  height: 35px;
+  margin: 16px auto;
+}
+
+.header-mobile-layout {
+  display: flex;
+  max-width: 480px;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+  height: 35px;
+}
+
+.header-list {
+  display: none;
+}
+
+/* section-hero */
+
+.hero {
+  max-width: 320px;
+  height: 395px;
+  /* display: flex; */
+  padding: 0 16px;
+  margin: 0 auto;
+  /* flex-direction: column; */
+  position: relative;
+}
+
+.hero-heading {
+  color: var(--BLACK);
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 52px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  position: absolute;
+  bottom: 0;
+}
+
+.icon-shop-box {
+  padding-left: 10px;
+}
+
+.hero-subheading {
+  color: var(--BLACK);
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.subheading-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.image-home-page-box {
+  width: 145px;
+  height: 274px;
+  /* display: flex; */
+  /* align-items: center; */
+  /* padding: 72px 72px; */
+}
+
+.heading-box {
+  width: 288px;
+  height: 63px;
+  display: flex;
+}
+
+/* tablet styles */
+
+@media screen and (min-width: 768px) {
+  /* header-tablet */
+
+  .header {
+    width: 720px;
+    height: 57px;
+    flex-shrink: 0;
+    margin: 24px auto;
+  }
+
+  .header-mobile-layout {
+    justify-content: space-between;
+    align-items: center;
+    max-width: 768px;
+    height: 57px;
+    margin: 24px auto;
+    display: flex;
+  }
+
+  .header-list {
+    display: flex;
+    width: 469px;
+    height: 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    flex-shrink: 0;
+  }
+
+  .header-list-text {
+    color: var(--BLACK);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+
+  .burger-button {
+    display: none;
+  }
+
+  .logo-icon {
+    width: 72px;
+    height: 57px;
+    flex-shrink: 0;
+    order: -1;
+    margin-right: 80px;
+  }
+
+  .tel-icon {
+    width: 24px;
+    height: 24px;
+    flex-shrink: 0;
+  }
+
+  /* section Hero-tablet */
+  .hero {
+    max-width: 768px;
+    height: 301px;
+    /* display: flex; */
+    padding: 0 24px;
+    margin: 0 auto;
+    /* flex-direction: column; */
+    position: relative;
+  }
+
+  .icon-shop-now {
+    width: 145px;
+    height: 145px;
+  }
+
+  .hero-heading {
+    font-size: 120px;
+  }
+
+  .hero-subheading {
+    font-size: 24px;
+  }
+}
