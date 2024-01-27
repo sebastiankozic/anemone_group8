@@ -162,7 +162,7 @@ height: 274px;
 
 
 .container {
-  width: auto;
+  max-width: 1232px;
   margin: 0 auto;
   padding: 32px 16px;
 }
@@ -188,8 +188,8 @@ height: 274px;
   line-height: 16.94px;
   text-align: left;
   padding-bottom: 12px;
-  max-width: 128px;
   word-wrap: break-word;
+  max-width: auto;
 }
 
 .icon-footer {
@@ -201,7 +201,7 @@ height: 274px;
   flex-wrap: wrap;
   gap: 16px;
   margin-bottom: 32px;
-  justify-content: space-between;
+  justify-content: space-evenly;
 }
 
 .footer-container {
@@ -423,8 +423,6 @@ flex-shrink: 0;
   }
 }
 
-
-
 .store-header-secondary {
   color: var(--BLACK);
 
@@ -450,8 +448,6 @@ flex-shrink: 0;
   gap: 16px;
   margin-bottom: 32px;
 }
-
-
 
 .store-list-item-descr-h-tertiary {
   color: var(--BLACK);
@@ -506,13 +502,9 @@ flex-shrink: 0;
   pointer-events: none;
 }
 
-
-
 .modal-p {
   color: yellow;
 }
-
-
 
 /* KONRAD */
 
@@ -672,45 +664,45 @@ flex-shrink: 0;
 .invalid {
   color: var(--ERRORCOLOR);
 }
-.valid_name_modal_icon{
-display: none;
-position: absolute;
-top: 48%;
-left: 86%;
-}
-.invalid_name_modal_icon{
+.valid_name_modal_icon {
   display: none;
   position: absolute;
   top: 48%;
   left: 86%;
 }
-.valid_email_modal_icon{
+.invalid_name_modal_icon {
   display: none;
   position: absolute;
-  top:67%;
+  top: 48%;
+  left: 86%;
+}
+.valid_email_modal_icon {
+  display: none;
+  position: absolute;
+  top: 67%;
   left: 86%;
 }
 .invalid_email_modal_icon {
   display: none;
   position: absolute;
-  top:67%;
+  top: 67%;
   left: 86%;
 }
-.contact_us_name_modal_input:valid + .valid_name_modal_icon{
+.contact_us_name_modal_input:valid + .valid_name_modal_icon {
   display: inline-block;
   fill: var(--CORRECTCOLOR);
 }
-.invalid_name_modal_icon.wrong{
+.invalid_name_modal_icon.wrong {
   display: inline-block;
   fill: var(--ERRORCOLOR);
 }
-.contact_us_email_modal_input:valid + .valid_email_modal_icon{
+.contact_us_email_modal_input:valid + .valid_email_modal_icon {
   display: inline-block;
   fill: var(--CORRECTCOLOR);
 }
 .invalid_email_modal_icon.wrong {
-display: inline-block;
-fill: var(--ERRORCOLOR);
+  display: inline-block;
+  fill: var(--ERRORCOLOR);
 }
 .contact_us_email_modal_input:not(:placeholder-shown):required:valid,
 .contact_us_name_modal_input:not(:placeholder-shown):required:valid {
@@ -774,10 +766,10 @@ fill: var(--ERRORCOLOR);
 }
 .contact_us_modal_button.valid {
   background: var(--PINK);
-  cursor:pointer;
+  cursor: pointer;
   transition: transform 0.25s ease;
 }
-.contact_us_modal_button.valid:hover{
+.contact_us_modal_button.valid:hover {
   background: var(--DARK-PINK);
   transform: scale(1.005);
 }
@@ -824,11 +816,11 @@ fill: var(--ERRORCOLOR);
     font-size: 14px;
   }
   .valid_name_modal_icon,
-.valid_email_modal_icon,
-.invalid_name_modal_icon,
-.invalid_email_modal_icon {
-  width: 20px
-}
+  .valid_email_modal_icon,
+  .invalid_name_modal_icon,
+  .invalid_email_modal_icon {
+    width: 20px;
+  }
   .contact_us_modal_button {
     width: 416px;
     padding: 14px 0px;
@@ -842,7 +834,7 @@ fill: var(--ERRORCOLOR);
 }
 
 /* --Blog Marcin/Bartek-- */
- 
+
 .blog-title-line {
   display: flex;
   align-items: center;
