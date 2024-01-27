@@ -57,13 +57,14 @@ img {
   text-align: left;
 }
 
+
 /*---------------section About-mobile-----------------*/
 .container-about {
   margin: 0 auto;
   max-width: 320px;
   height: 395px;
   padding: 0 16px;
-}  
+}
 .about{
   color: var(--BLACK);
   font-family: Montserrat;
