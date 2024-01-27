@@ -33,15 +33,37 @@ body {
     counter-reset: item;
     list-style-type: none;
     margin: 0;
-
 }
 
 .delivery-list li {
     display: flex;
-
     position: relative;
-    justify-content: space-around;
+    align-items: center;
+    padding: 0 0 14px 8px;
+}
 
+.delivery-list li:last-child {
+    padding: 0 0 26px 8px;
+}
+
+.li-one {
+    width: 240px;
+    height: 40px;
+}
+
+.li-two {
+    width: 240px;
+    height: 51px;
+}
+
+.li-three {
+    width: 240px;
+    height: 51px;
+}
+
+.li-four {
+    width: 240px;
+    height: 51px;
 }
 
 .delivery-list li span {
@@ -51,7 +73,6 @@ body {
     font-style: normal;
     font-weight: 500;
     line-height: normal;
-    margin: 0 0 14px 8px;
     
 }
 
@@ -77,11 +98,149 @@ body {
 }
 
 .delivery-img {
-    margin: 26px 0 0;
-    width: 100%;
+    width: 320px;
+    height: 135px;
+    background-image: url(/Project-Anemone/images/deliver-img@1x.jpg);
+    background-repeat: no-repeat;
 }
 
 .delivery-list li:hover::before {
-    background-color: coral;
+    background-color: #E86F54;
 }
 
+@media screen and (min-width: 768px) {
+    .container {
+        width: 720px;
+    }
+
+    .delivery-section h2 {
+        font-size: 44px;
+        margin: 0 0 60px;
+    }
+
+    .delivery-section h2::after {
+        width: 473px;
+    }
+        
+    .delivery-list li {
+        padding: 0 0 20px 20px;
+    }
+
+    .delivery-list li:last-child {
+        padding: 0 0 40px 20px;
+    }
+
+    .delivery-list li span {
+        font-size: 24px;
+    }
+
+    .delivery-list li::before {
+        height: 64px;
+        width: 64px;
+        font-size: 26px;
+        left: -2.5em;
+    }
+
+
+        .li-one {
+            width: 544px;
+            height: 64px;
+        }
+    
+        .li-two {
+            width: 593px;
+            height: 67px;
+        }
+        
+        .li-three {
+            width: 582px;
+            height: 64px;
+        }
+
+        .li-four {
+            width: 476px;
+            height: 64px;
+        }
+
+        .delivery-list {
+            padding-inline-start: 64px;
+            
+        }
+
+        .delivery-img {
+            width: 768px;
+            height: 264px;
+            background-image: url(/Project-Anemone/images/deliv-img-tablet@1x.jpg);
+            background-repeat: no-repeat;
+        }
+}
+
+@media screen and (min-width: 1280px) {
+    .container {
+        width: 1232px;
+    }
+
+    .delivery-section h2 {
+        margin: 0 0 80px;
+    }
+
+    .delivery-section h2::after {
+        width: 985px;
+    }
+
+    .delivery-list li {
+        padding: 0 0 32px 56px;
+    }
+
+    .delivery-list li:last-child {
+        padding: 0 0 60px 56px;
+    }
+
+    .delivery-list li:nth-child(3) {
+        padding: 0 0 40px 58px;
+    }
+
+    .delivery-list li span {
+        font-size: 32px;
+    }
+
+    .delivery-list li::before {
+        height: 64px;
+        width: 64px;
+        font-size: 26px;
+        left: -2.5em;
+    }
+
+
+    .li-one {
+        width: 855px;
+        height: 84px;
+    }
+
+    .li-two {
+        width: 790px;
+        height: 84px;
+    }
+
+    .li-three {
+        width: 834px;
+        height: 84px;
+    }
+
+    .li-four {
+        width: 635px;
+        height: 84px;
+    }
+
+    .delivery-list {
+        padding-inline-start: 136px;
+
+    }
+
+    .delivery-img {
+        width: 1280px;
+        height: 391px;
+        background-image: url(/Project-Anemone/images/deliv-img-desktop@1x.jpg);
+        background-repeat: no-repeat;
+    }
+}
