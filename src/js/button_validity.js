@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', function () {
   const form = document.querySelector('.contact_us_modal_form_wrapper');
-  const sendButton = document.querySelector('.Contact_us_modal_button');
+  const sendButton = document.querySelector('.contact_us_modal_button');
 
   form.addEventListener('input', function () {
     const userNameInput = document.getElementById('user_name');
