@@ -45,6 +45,7 @@ img {
   font-weight: 700;
   line-height: 21.78px;
   text-align: left;
+  padding-bottom: 18px;
 }
 
 .footer-content {
@@ -53,6 +54,9 @@ img {
   font-weight: 500;
   line-height: 16.94px;
   text-align: left;
+  padding-bottom: 12px;
+  max-width: 128px;
+  word-wrap: break-word;
 }
 
 .icon-footer {
@@ -60,8 +64,16 @@ img {
 }
 
 .footer-flex {
+  display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  gap: 16px;
+  margin-bottom: 32px;
+  justify-content: space-between;
+}
+
+.footer-container {
+  max-width: 320px;
+  flex-wrap: wrap;
 }
 
 /*---------------section About-mobile-----------------*/
@@ -239,7 +251,6 @@ img {
 
 .store-list-item-descr-p {
   color: var(--BLACK);
-
   font-family: 'Montserrat';
   font-size: 12px;
   font-style: normal;
