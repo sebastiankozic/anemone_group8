@@ -439,7 +439,7 @@ img {
   max-width: 320px;
   padding: 0 16px;
   width: auto;
-  margin-bottom: 60px;
+  margin: 0 auto 60px;
 }
 
 @media screen and (min-width: 768px) {
@@ -462,7 +462,7 @@ img {
   font-style: normal;
   font-weight: 700;
   line-height: normal;
-  margin-bottom: 44px;
+  margin-bottom: 45px;
   border-bottom: 1px solid var(--BLACK);
   text-align: left;
 }
@@ -475,13 +475,13 @@ img {
     font-style: normal;
     font-weight: 700;
     line-height: normal;
-    margin-bottom: 82px;
+    margin-bottom: 86px;
   }
 }
 
 @media screen and (min-width: 1280px) {
   .store-header-secondary {
-    margin-bottom: 102px;
+    margin-bottom: 107px;
   }
 }
 
@@ -506,6 +506,39 @@ img {
   flex-wrap: wrap;
   gap: 16px;
   margin-bottom: 32px;
+}
+
+@media screen and (min-width: 768px) {
+  .store-list {
+    column-gap: 32px;
+    row-gap: 40px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .store-list {
+    column-gap: 32px;
+    row-gap: 64px;
+  }
+}
+
+.store-image {
+  width: 136px;
+  height: 155px;
+  margin-bottom: 12px;
+}
+@media screen and (min-width: 768px) {
+  .store-image {
+    width: 344px;
+    height: 399px;
+    margin-bottom: 16px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .store-image {
+    width: 600px;
+    height: 542px;
+  }
 }
 
 .store-list-item-descr-h-tertiary {
