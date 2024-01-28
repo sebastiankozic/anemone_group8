@@ -51,14 +51,14 @@ img {
 }
 
 .header-list {
-display: none;
+  display: none;
 }
 
 /* section-hero */
 
 .hero {
- max-width: 320px; 
- height: 395px;
+  max-width: 320px;
+  height: 395px;
   padding: 0 16px;
   margin: 0 auto;
   position: relative;
@@ -93,40 +93,6 @@ display: none;
   display: flex;
   justify-content: space-between;
   align-items: center;
-}
-
-.mobile-menu {
-  display: flex;
-  flex-flow: column nowrap;
-}
-
-.mobile-menu-close {
-  display: flex;
-  width: 100%;
-  justify-content: flex-end;
-}
-
-.js-menu-container {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100vw;
-  height: 100vh;
-  padding: 32px;
-  background-color: var(--background-color);
-  z-index: 999;
-  transform: translateX(100%);
-  transition: transform 250ms ease-in-out;
-}
-
-.js-menu-container.is-open {
-  transform: translateX(0);
-}
-
-.mobile-menu-close .menu-toggle {
-  position: absolute;
-  top: 16px;
-  right: 16px;
 }
 
 .image-home-page-box {
@@ -195,7 +161,7 @@ display: none;
   max-width: 320px;
   margin-bottom: 60px;
   padding: 0 16px;
- }
+}
 
 .about {
   color: var(--BLACK);
@@ -212,7 +178,7 @@ display: none;
   background: var(--WHITE);
   padding-right: 14px;
   position: relative;
-  top: 14px;  
+  top: 14px;
 }
 
 .about-text {
@@ -230,17 +196,13 @@ display: none;
   height: 178px;
 }
 
-@media (min-device-pixel-ratio: 2),
-  (-webkit-min-device-pixel-ratio: 2),
-  (min-resolution: 2dppx){
-    
-  }
+@media (min-device-pixel-ratio: 2), (-webkit-min-device-pixel-ratio: 2), (min-resolution: 2dppx) {
+}
 
 /*--------------section About-tablet-----------------*/
 @media screen and (min-width: 768px) {
-
   /* header-tablet */
-  
+
   .header {
     width: 720px;
     height: 57px;
@@ -296,7 +258,7 @@ display: none;
 
   /* section Hero-tablet */
   .hero {
-    max-width: 768px; 
+    max-width: 768px;
     height: 301px;
     /* display: flex; */
     padding: 0 24px;
@@ -310,11 +272,11 @@ display: none;
     height: 145px;
   }
 
- .hero-heading {
+  .hero-heading {
     font-size: 120px;
   }
 
- .hero-subheading {
+  .hero-subheading {
     font-size: 24px;
   }
 
@@ -352,11 +314,11 @@ display: none;
     justify-content: center;
   }
   .about-span {
-  top: 28px;
+    top: 28px;
   }
 }
 /*--------------section About-computer----------------*/
-@media screen and (min-width: 1280px){
+@media screen and (min-width: 1280px) {
   .container-about {
     margin: 0 auto;
     max-width: 1280px;
@@ -381,16 +343,10 @@ display: none;
 /*------------------------------------------------------*/
 /*--bartek*/
 
-.js-menu-container {
-  display: none;
-  transform: translateX(100%);
-  transition: transform 250ms ease-in-out;
-}
-
 .js-menu-container.is-open {
   display: flex;
   position: absolute;
-  z-index: 2;
+  z-index: 5;
   top: 0;
   left: 0;
   right: 0;
@@ -398,6 +354,12 @@ display: none;
   flex-flow: column;
   height: 100%;
   transform: translateX(0);
+}
+
+.js-menu-container {
+  display: none;
+  transform: translateX(100%);
+  transition: transform 250ms ease-in-out;
 }
 
 .menu-links {
@@ -892,8 +854,8 @@ display: none;
   .icon-shop-now {
     width: 166px;
     height: 166px;
-   }
-  
+  }
+
   .modal {
     width: 480px;
     padding: 48px 32px;
