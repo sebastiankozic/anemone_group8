@@ -138,12 +138,6 @@ width: 66px;
   height: 274px;
 }
 
-/* .heading-box {
-  width: 288px;
-  height: 63px;
-  display: flex;
-} */
-
 
 .container {
 }
@@ -1149,6 +1143,16 @@ width: 66px;
   display: none;
 }
 
+.tel-button {
+  background-color: transparent;
+  border: transparent;
+}
+
+.burger-button {
+  background-color: transparent;
+  border: transparent;
+}
+
 /* section-hero */
 
 .hero {
@@ -1203,11 +1207,6 @@ width: 66px;
  
 }
 
-/* .heading-box {
-  width: 288px;
-  height: 63px;
-  display: flex;
-} */
 
 /* tablet styles */
 
@@ -1326,9 +1325,6 @@ width: 66px;
   margin: 24px auto;
   display: flex;
 }
-
-/* .header-list { }*/
-
 
 .header-list-text {
   color: var(--BLACK);
