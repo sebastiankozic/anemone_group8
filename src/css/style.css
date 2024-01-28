@@ -236,10 +236,15 @@ body {
         width: 1280px;
         height: 391px;
         background-image: url(/Project-Anemone/src/images/deliv-img-desktop@1x.jpg);
+        margin-top: 40px;
         }
         
-        .delivery-section h2::after {
+    .delivery-section h2::after {
         width: 985px;
     }
 
+    .delivery-list {
+        gap: 35px;
+        margin: 0 0 0 96px;
+    }
 } 
