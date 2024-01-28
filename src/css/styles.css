@@ -445,7 +445,7 @@ width: 66px;
   }
 }
 
-/* --- Sekcja Store --- */
+/* --- --- --- --- Store section top --- --- --- --- */
 
 .container-store {
   max-width: 320px;
@@ -559,7 +559,6 @@ width: 66px;
   font-style: normal;
   font-weight: 500;
   line-height: normal;
-  margin-top: 12px;
   margin: 0 0 6px 0;
 }
 
@@ -570,7 +569,9 @@ width: 66px;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
-    margin: 0 0 8px 0;
+    margin: 0 0 26px 0;
+    border-bottom: 1px solid var(--BLACK);
+    text-align: left;
   }
 }
 
@@ -581,7 +582,31 @@ width: 66px;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
-    margin: 0 0 4px 0;
+    margin: 0 0 24px 0;
+  }
+}
+/* .store-list-item-descr-h-tertiary-span {
+  background: var(--WHITE);
+  padding-right: 14px;
+  position: relative;
+  top: 14px;
+} */
+
+@media screen and (min-width: 768px) {
+  .store-list-item-descr-h-tertiary-span {
+    background: var(--WHITE);
+    padding-right: 16px;
+    position: relative;
+    top: 16px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .store-list-item-descr-h-tertiary-span {
+    background: var(--WHITE);
+    padding-right: 16px;
+    position: relative;
+    top: 16px;
   }
 }
 
@@ -631,7 +656,7 @@ width: 66px;
   align-items: center;
   display: flex;
   margin: auto;
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .store-button:hover {
   background-color: var(--BUTTON-HOVER);
@@ -671,7 +696,7 @@ width: 66px;
   }
 }
 
-/* --- Koniec sekcji Store --- */
+/* --- --- --- --- Store section end--- --- --- --- */
 
 /* KONRAD */
 
