@@ -157,8 +157,6 @@ body {
         height: 64px;
         padding-left: 20px;
         margin-bottom: 0;
-        display: flex;
-        flex-wrap: nowrap;
     }
 
     .delivery-section h2::after {
