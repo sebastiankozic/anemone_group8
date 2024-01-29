@@ -1554,7 +1554,7 @@ body {
 .delivery-img {
     width: 320px;
     height: 135px;
-    background-image: url(/Project-Anemone/src/images/deliver-img@1x.jpg);
+    background-image: url(./images/deliver-img@1x.jpg);
     background-repeat: no-repeat;
     margin: 0 auto 0;
 }
