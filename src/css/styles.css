@@ -867,13 +867,13 @@ img {
     font-weight: 500;
   }
   .img {
-    min-width: 320px;
-    max-width: 767px;
+    width: 100%;
     margin: 0 auto;
     padding: 0;
   }
   .delivery-image-position {
     margin-top: 26px;
+    max-width: 767px;
   }
   .delivery-article {
     color: var(--BLACK);
@@ -957,13 +957,13 @@ img {
     font-weight: 500;
   }
   .img {
-    min-width: 768px;
-    max-width: 1280px;
+    width: 100%;
     margin: 0 auto;
     padding: 0;
   }
   .delivery-image-position {
     margin-top: 40px;
+    max-width: 1280px;
   }
 
   .delivery-article {
@@ -1047,7 +1047,7 @@ img {
     font-weight: 500;
   }
   .img {
-    width: 1280px;
+    width: 100%;
     margin: 0 auto;
     padding: 0;
   }
