@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', function () {
-    const form = document.querySelector('.contact_us_modal_form_wrapper_2');
+    const form_2 = document.querySelector('.contact_us_modal_form_wrapper_2');
     const nameLabel_2 = document.querySelector('.label_name_2');
     const nameInput_2 = document.querySelector('#user_name_2');
     const emailLabel_2 = document.querySelector('.label_email_2');
@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', function () {
     const invalidEmailIcon_2 = document.querySelector('.invalid_email_modal_icon_2');
     const sendButton_2 = document.querySelector('.contact_us_modal_button_2');
   
-    form.addEventListener('input', function () {
+    form_2.addEventListener('input', function () {
       const isNameEmpty_2 = nameInput_2.value.trim() === '';
       const isNameValid_2 = nameInput_2.checkValidity();
   
