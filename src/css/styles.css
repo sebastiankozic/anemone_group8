@@ -756,7 +756,8 @@ width: 66px;
   visibility: hidden;
 }
 .modal,
-.modal_2 {
+.modal_2,
+.modal4 {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -967,7 +968,11 @@ width: 66px;
   margin: 44px 26px 0;
 
 }
-/*
+.thank_you_modal_box {
+  margin: 16px 0 8px 0;
+  display: flex;
+  flex-direction: column;
+}
 .thank_you_modal_head{
   margin: 16px 0 0 0;
 text-align: center;
@@ -992,7 +997,7 @@ font-weight: 600;
   background: var(--DARK-PINK);
   border-radius: 8px;
   border: none;
-}*/
+}
 
 
 .modal3 {
