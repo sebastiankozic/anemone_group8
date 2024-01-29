@@ -247,7 +247,7 @@ img {
   .container-footer {
     max-width: 1200px;
     margin: 0 auto;
-    padding: 32px 16px;
+    padding: 60px 16px;
   }
   .footer-flex {
     display: flex;
