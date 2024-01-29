@@ -285,7 +285,6 @@ width: 66px;
     height: 57px;
     flex-shrink: 0;
     order: -1;
-    margin-right: 80px;
   }
 
   .tel-icon {
@@ -1205,6 +1204,7 @@ width: 66px;
   padding: 0 16px;
   margin: 0 auto;
   position: relative;
+  margin-top: 44px;
 }
 
 .hero-heading {
@@ -1301,7 +1301,6 @@ width: 66px;
     height: 57px;
     flex-shrink: 0;
     order: -1;
-    margin-right: 80px;
   }
 
   .tel-icon {
@@ -1379,6 +1378,13 @@ width: 66px;
   line-height: normal;
 }
 
+.header-list {
+  display: inline-flex;
+align-items: flex-start;
+gap: 48px;
+width: 565px;
+}
+
 .burger-button {
   display: none;
 }
@@ -1388,12 +1394,11 @@ width: 66px;
   height: 57px;
   flex-shrink: 0;
   order: -1;
-  margin-right: 261px;
 }
 
 .tel-icon {
-  width: 24px;
-  height: 24px;
+  width: 28px;
+  height: 28px;
   flex-shrink: 0;
 }
 
