@@ -700,14 +700,14 @@ img {
     padding: 0 15px;
   }
   .delivery-section {
-    background-color: #fff;
+    background-color: var(--WHITE);
     padding: 60px 0px;
   }
   .list {
     list-style: none;
   }
   .delivery-title {
-    color: #000;
+    color: var(--BLACK);
     font-family: 'Montserrat' sans-serif;
     font-size: 24px;
 
@@ -729,12 +729,16 @@ img {
     margin-bottom: 45px;
   }
   .delivery-svg-ellipse {
-    fill: #fff;
+    fill: var(--WHITE);
     stroke-width: 1px;
-    stroke: #000;
+    stroke: var(--BLACK);
     margin-right: 8px;
     width: 40px;
     height: 40px;
+  }
+  .delivery-svg-ellipse:hover,
+  .delivery-svg-ellipse:hover {
+    fill: var(--BUTTON-HOVER);
   }
   .delivery-order-list {
     display: flex;
@@ -743,7 +747,6 @@ img {
   }
   .delivery-order-number {
     display: flex;
-
     align-items: center;
   }
   .delivery-svg-position {
@@ -770,7 +773,7 @@ img {
     margin-top: 26px;
   }
   .delivery-article {
-    color: #000;
+    color: var(--BLACK);
     font-family: Montserrat;
     font-size: 14px;
     font-style: normal;
@@ -787,7 +790,7 @@ img {
     padding: 0 15px;
   }
   .delivery-section {
-    background-color: #fff;
+    background-color: var(--WHITE);
     padding: 100px 0px;
   }
   .list {
@@ -795,7 +798,7 @@ img {
   }
   .delivery-title {
     font-size: 44px;
-    color: #000;
+    color: var(--BLACK);
     font-family: 'Montserrat' sans-serif;
 
     font-weight: 700;
@@ -815,17 +818,18 @@ img {
     justify-content: space-between;
   }
 
-  .delivery-svg-ellipse:hover, .delivery-svg-ellipse:hover {
-   fill: var(--BUTTON-HOVER);
+  .delivery-svg-ellipse:hover,
+  .delivery-svg-ellipse:hover {
+    fill: var(--BUTTON-HOVER);
   }
 
   .delivery-svg-ellipse {
     margin-right: 8px;
     width: 64px;
     height: 64px;
-    fill: #fff;
+    fill: var(--WHITE);
     stroke-width: 1px;
-    stroke: #000;
+    stroke: var(--BLACK);
   }
   .delivery-order-list {
     display: flex;
@@ -845,7 +849,7 @@ img {
     top: 16px;
     left: 23px;
 
-    color: #000;
+    color: var(--BLACK);
 
     font-family: Montserrat;
     font-size: 26px;
@@ -863,7 +867,7 @@ img {
   }
 
   .delivery-article {
-    color: #000;
+    color: var(--BLACK);
     font-family: Montserrat;
     font-size: 24px;
     font-style: normal;
@@ -881,7 +885,7 @@ img {
     padding: 0 15px;
   }
   .delivery-section {
-    background-color: #fff;
+    background-color: var(--WHITE);
     padding: 100px 0px;
   }
   .list {
@@ -889,7 +893,7 @@ img {
   }
   .delivery-title {
     font-size: 44px;
-    color: #000;
+    color: var(--BLACK);
     font-family: 'Montserrat' sans-serif;
 
     font-weight: 700;
@@ -912,13 +916,14 @@ img {
   .delivery-svg-ellipse {
     width: 64px;
     height: 64px;
-    fill: #fff;
+    fill: var(--WHITE);
     stroke-width: 1px;
-    stroke: #000;
+    stroke: var(--BLACK);
   }
-  .delivery-svg-ellipse:hover, .delivery-svg-ellipse:hover {
+  .delivery-svg-ellipse:hover,
+  .delivery-svg-ellipse:hover {
     fill: var(--BUTTON-HOVER);
-   }
+  }
   .delivery-order-list {
     display: flex;
     flex-direction: column;
@@ -938,7 +943,7 @@ img {
     top: 16px;
     left: 27px;
 
-    color: #000;
+    color: var(--BLACK);
 
     font-family: Montserrat;
     font-size: 26px;
@@ -955,7 +960,7 @@ img {
   }
 
   .delivery-article {
-    color: #000;
+    color: var(--BLACK);
     font-family: Montserrat;
     font-size: 32px;
     font-style: normal;
