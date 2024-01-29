@@ -866,13 +866,13 @@ img {
     font-weight: 500;
   }
   .img {
-    min-width: 320px;
-    max-width: 767px;
+    width: 100%;
     margin: 0 auto;
     padding: 0;
   }
   .delivery-image-position {
     margin-top: 26px;
+    max-width: 767px;
   }
   .delivery-article {
     color: var(--BLACK);
@@ -956,13 +956,13 @@ img {
     font-weight: 500;
   }
   .img {
-    min-width: 768px;
-    max-width: 1280px;
+    width: 100%;
     margin: 0 auto;
     padding: 0;
   }
   .delivery-image-position {
     margin-top: 40px;
+    max-width: 1280px;
   }
 
   .delivery-article {
@@ -1046,7 +1046,7 @@ img {
     font-weight: 500;
   }
   .img {
-    width: 1280px;
+    width: 100%;
     margin: 0 auto;
     padding: 0;
   }
@@ -1906,6 +1906,16 @@ img {
     height: 57px;
     margin: 24px auto;
     display: flex;
+  }
+
+  .header-list {
+    display: flex;
+    width: 565px;
+    height: 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 48px;
+    flex-shrink: 0;
   }
 
   .header-list-text {
