@@ -814,6 +814,11 @@ img {
     align-items: center;
     justify-content: space-between;
   }
+
+  .delivery-svg-ellipse:hover, .delivery-svg-ellipse:hover {
+   fill: var(--BUTTON-HOVER);
+  }
+
   .delivery-svg-ellipse {
     margin-right: 8px;
     width: 64px;
@@ -911,6 +916,9 @@ img {
     stroke-width: 1px;
     stroke: #000;
   }
+  .delivery-svg-ellipse:hover, .delivery-svg-ellipse:hover {
+    fill: var(--BUTTON-HOVER);
+   }
   .delivery-order-list {
     display: flex;
     flex-direction: column;
