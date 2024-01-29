@@ -141,23 +141,23 @@ img {
 /*sebastian - f00ter*/
 
 @media (min-width: 320px) and (max-width: 767px) {
+  .container-footer.footer-flex > ul:first-child {
+    display: none;
+  }
   .container-footer {
     max-width: 767px;
     padding: 32px 16px;
   }
-
   .footer-flex {
     display: flex;
     flex-wrap: wrap;
     gap: 16px;
     justify-content: space-between;
   }
-
   .footer {
     background: var(--BLACK);
     color: var(--WHITE);
   }
-
   .footer-header {
     font-family: Inter;
     font-size: 18px;
@@ -166,7 +166,6 @@ img {
     text-align: left;
     padding-bottom: 18px;
   }
-
   .footer-content {
     font-family: Inter;
     font-size: 14px;
@@ -177,21 +176,17 @@ img {
     word-wrap: break-word;
     max-width: auto;
   }
-
   .icon-footer {
     fill: none;
   }
-
   .footer-container {
     max-width: 149px;
     flex-wrap: wrap;
   }
-
   .footer-container-icons {
     display: flex;
     justify-content: center;
   }
-
   .footer-link {
     fill: none;
   }
@@ -204,19 +199,16 @@ img {
     margin: 0 auto;
     padding: 32px 16px;
   }
-
   .footer-flex {
     display: flex;
     flex-wrap: wrap;
     gap: 16px;
     justify-content: space-between;
   }
-
   .footer {
     background: var(--BLACK);
     color: var(--WHITE);
   }
-
   .footer-header {
     font-family: Inter;
     font-size: 18px;
@@ -225,7 +217,6 @@ img {
     text-align: left;
     padding-bottom: 18px;
   }
-
   .footer-content {
     font-family: Inter;
     font-size: 14px;
@@ -236,21 +227,17 @@ img {
     word-wrap: break-word;
     max-width: auto;
   }
-
   .icon-footer {
     fill: none;
   }
-
   .footer-container {
     max-width: 149px;
     flex-wrap: wrap;
   }
-
   .footer-container-icons {
     display: flex;
     justify-content: center;
   }
-
   .footer-link {
     fill: none;
   }
@@ -262,19 +249,16 @@ img {
     margin: 0 auto;
     padding: 32px 16px;
   }
-
   .footer-flex {
     display: flex;
     flex-wrap: wrap;
     gap: 16px;
     justify-content: space-between;
   }
-
   .footer {
     background: var(--BLACK);
     color: var(--WHITE);
   }
-
   .footer-header {
     font-family: Inter;
     font-size: 18px;
@@ -283,7 +267,6 @@ img {
     text-align: left;
     padding-bottom: 18px;
   }
-
   .footer-content {
     font-family: Inter;
     font-size: 14px;
@@ -294,21 +277,17 @@ img {
     word-wrap: break-word;
     max-width: auto;
   }
-
   .icon-footer {
     fill: none;
   }
-
   .footer-container {
     max-width: 149px;
     flex-wrap: wrap;
   }
-
   .footer-container-icons {
     display: flex;
     justify-content: center;
   }
-
   .footer-link {
     fill: none;
   }
