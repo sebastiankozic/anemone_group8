@@ -64,8 +64,8 @@ img {
   padding: 0 16px;
   margin: 0 auto;
   position: relative;
+  margin-top: 44px;
 }
-
 .hero-heading {
   color: var(--BLACK);
   text-align: center;
@@ -75,7 +75,9 @@ img {
   font-weight: 400;
   line-height: normal;
   position: absolute;
-  bottom: 0;
+  bottom: 100px;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 .shop-now-button {
@@ -92,7 +94,6 @@ img {
   line-height: normal;
   width: 66px;
 }
-
 .subheading-box {
   display: flex;
   justify-content: space-between;
@@ -103,7 +104,23 @@ img {
   display: flex;
   flex-flow: column nowrap;
 }
+.tel-button {
+  background-color: transparent;
+  border: transparent;
+}
 
+.burger-button {
+  background-color: transparent;
+  border: transparent;
+}
+.main-image {
+  width: 145px;
+  height: 274px;
+}
+.image-home-page-box {
+  width: 145px;
+  height: 274px;
+}
 .mobile-menu-close {
   display: flex;
   width: 100%;
@@ -131,11 +148,6 @@ img {
   position: absolute;
   top: 16px;
   right: 16px;
-}
-
-.image-home-page-box {
-  width: 145px;
-  height: 274px;
 }
 
 /*sebastian - f00ter*/
@@ -1719,85 +1731,11 @@ img {
 
 /* Header-mobile */
 
-.header {
-  width: 288px;
-  height: 35px;
-  margin: 16px auto;
-}
 
-.header-mobile-layout {
-  display: flex;
-  max-width: 480px;
-  justify-content: space-between;
-  align-items: center;
-  margin: auto;
-  height: 35px;
-}
 
-.header-list {
-  display: none;
-}
 
-.tel-button {
-  background-color: transparent;
-  border: transparent;
-}
 
-.burger-button {
-  background-color: transparent;
-  border: transparent;
-}
-
-/* section-hero */
-
-.hero {
-  max-width: 320px;
-  height: 395px;
-  padding: 0 16px;
-  margin: 0 auto;
-  position: relative;
-}
-
-.hero-heading {
-  color: var(--BLACK);
-  text-align: center;
-  font-family: 'Montserrat', sans-serif;
-  font-size: 52px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
-  position: absolute;
-  bottom: 100px;
-  left: 50%;
-  transform: translateX(-50%);
-}
-
-.hero-subheading {
-  color: var(--BLACK);
-  font-family: 'Montserrat', sans-serif;
-  font-size: 14px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
-}
-
-.subheading-box {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.main-image {
-  width: 145px;
-  height: 274px;
-}
-
-.image-home-page-box {
-  width: 145px;
-  height: 274px;
-}
-
-/* tablet styles */
+/* tablet HEADER STYLES*/
 
 @media screen and (min-width: 768px) {
   /* header-tablet */
@@ -1846,7 +1784,7 @@ img {
     height: 57px;
     flex-shrink: 0;
     order: -1;
-    margin-right: 80px;
+    /* margin-right: 80px; */
   }
 
   .tel-icon {
@@ -1854,6 +1792,7 @@ img {
     height: 24px;
     flex-shrink: 0;
   }
+
 
   /* section Hero-tablet */
   .hero {
@@ -1890,6 +1829,7 @@ img {
     width: 390px;
     height: 636px;
   }
+
 }
 
 @media screen and (min-width: 1280px) {
@@ -1920,6 +1860,18 @@ img {
     line-height: normal;
   }
 
+
+  .header-list {
+    width: 565px;
+    height: 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 48px;
+    flex-shrink: 0;
+    display: inline-flex;
+  }
+
+
   .burger-button {
     display: none;
   }
@@ -1929,12 +1881,13 @@ img {
     height: 57px;
     flex-shrink: 0;
     order: -1;
-    margin-right: 261px;
+    /* margin-right: 261px; */
   }
 
+  
   .tel-icon {
-    width: 24px;
-    height: 24px;
+    width: 28px;
+    height: 28px;
     flex-shrink: 0;
   }
 
@@ -1964,6 +1917,7 @@ img {
     width: 120px;
   }
 
+
   .main-image {
     width: 390px;
     height: 636px;
@@ -1978,4 +1932,8 @@ img {
     justify-content: center;
     gap: 110px;
   }
+
 }
+
+/* ------------koniec----------- */
+
