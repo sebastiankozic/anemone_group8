@@ -386,7 +386,6 @@ img {
     height: 57px;
     flex-shrink: 0;
     order: -1;
-    margin-right: 80px;
   }
 
   .tel-icon {
@@ -1844,7 +1843,6 @@ img {
     height: 57px;
     flex-shrink: 0;
     order: -1;
-    margin-right: 80px;
   }
 
   .tel-icon {
@@ -1909,6 +1907,16 @@ img {
     display: flex;
   }
 
+  .header-list {
+    display: flex;
+    width: 565px;
+    height: 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 48px;
+    flex-shrink: 0;
+  }
+
   .header-list-text {
     color: var(--BLACK);
     font-family: 'Montserrat', sans-serif;
@@ -1927,12 +1935,11 @@ img {
     height: 57px;
     flex-shrink: 0;
     order: -1;
-    margin-right: 261px;
   }
 
   .tel-icon {
-    width: 24px;
-    height: 24px;
+    width: 28px;
+    height: 28px;
     flex-shrink: 0;
   }
 
