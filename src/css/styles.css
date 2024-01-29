@@ -616,7 +616,7 @@ img {
   display: flex;
   flex-wrap: wrap;
   gap: 16px;
-  margin-bottom: 32px;
+  margin-bottom: 60px;
 }
 
 @media screen and (min-width: 768px) {
@@ -1303,11 +1303,11 @@ img {
   display: flex;
   flex-direction: column;
 }
-.thank_you_modal_head{
+.thank_you_modal_head {
   margin: 16px 0 0 0;
-text-align: center;
-font-size: 20px;
-font-weight: 600;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 600;
 }
 .thank_you_modal_text {
   color: var(--LIGHTGREY);
