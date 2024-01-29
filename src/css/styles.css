@@ -139,8 +139,6 @@ width: 66px;
 }
 
 
-.container {
-}
 /*sebastian*/
 .container-header {
   max-width: 1232px;
@@ -852,7 +850,7 @@ width: 66px;
 .contact_us_email_modal_input:valid + .valid_email_modal_icon {
   display: inline-block;
   fill: var(--CORRECTCOLOR);
-}
+} 
 .invalid_email_modal_icon.wrong {
   display: inline-block;
   fill: var(--ERRORCOLOR);
@@ -926,7 +924,115 @@ width: 66px;
   background: var(--DARK-PINK);
   transform: scale(1.005);
 }
+.modal2 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(1);
+  width: 272px;
+  background: var(--WHITE);
+  padding: 0 16px 32px 16px;
+  transition: transform 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+}
+.flowers_modal_img {
+  margin: 44px 26px 0;
 
+}
+.thank_you_modal_head{
+  margin: 16px 0 0 0;
+text-align: center;
+font-size: 20px;
+font-weight: 600;
+}
+.thank_you_modal_text {
+  color: var(--LIGHTGREY);
+  text-align: center;
+  font-size: 12px;
+  font-weight: 500;
+  width: 240px;
+  margin: 14px 0 18px 0;
+}
+.thank_you_modal_button {
+  color: var(--WHITE);
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 600;
+  width: 240px;
+  padding: 10px 0px;
+  background: var(--DARK-PINK);
+  border-radius: 8px;
+  border: none;
+}
+
+.subscribe_modal_head{
+    text-align: center;
+    font-size: 19px;
+    font-weight: 600;
+}
+.subscribe_modal_text {
+  color: var(--LIGHTGREY);
+  text-align: center;
+  font-weight: 400;
+  line-height: 1.3;
+}
+.subscribe_userdata_modal_label {
+  color: var(--LIGHTGREY);
+  font-size: 10px;
+  font-weight: 500;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 8px;
+}
+.subscribe_email_modal_input:valid + .valid_email_modal_icon {
+  display: inline-block;
+  fill: var(--CORRECTCOLOR);
+}
+.subscribe_email_modal_input:not(:placeholder-shown):required:valid{
+border-color: var(--CORRECTCOLOR);
+transform: scale(1.005);
+}
+.subscribe_email_modal_input:not(:placeholder-shown):required:invalid{
+  border-color: var(--ERRORCOLOR);
+  transform: scale(1.005);
+}
+.subscribe_email_modal_input:hover{
+  border: 1px solid var(--FADEDBLACK);
+  transform: scale(1.005);
+}
+.subscribe_email_modal_input {
+  border-radius: 4px;
+  border: 1px solid #d7d7d7;
+  width: 240px;
+  display: flex;
+  height: 35px;
+  padding: 10px 24px 10px 12px;
+  align-items: center;
+  font-family: Montserrat;
+  font-size: 12px;
+  font-weight: 500;
+  transition: transform 0.25s ease;
+}
+.subscribe_modal_button {
+  cursor: pointer;
+    color: var(--WHITE);
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 600;
+    display: flex;
+    width: 240px;
+    padding: 10px 0px;
+    justify-content: center;
+    align-items: center;
+    background: var(--PINK);
+    border-radius: 8px;
+    border: none;
+  }
+  .subscribe_modal_button.valid:hover {
+    background: var(--DARK-PINK);
+    transform: scale(1.005);
+  }
+  
 @media screen and (min-width: 768px) {
   .icon-shop-now {
     width: 166px;
