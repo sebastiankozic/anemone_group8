@@ -690,7 +690,7 @@ img {
 }
 /* --- --- --- --- Store section end--- --- --- --- */
 
-/* KONRAD */
+/* KONRAD - Delivery*/
 
 @media (min-width: 320px) and (max-width: 767px) {
   .container {
@@ -710,7 +710,6 @@ img {
     color: var(--BLACK);
     font-family: 'Montserrat' sans-serif;
     font-size: 24px;
-
     font-weight: 700;
     line-height: normal;
     text-transform: uppercase;
@@ -725,7 +724,6 @@ img {
     display: flex;
     align-items: center;
     justify-content: space-between;
-
     margin-bottom: 45px;
   }
   .delivery-svg-ellipse {
@@ -756,7 +754,6 @@ img {
     position: absolute;
     top: 8px;
     left: 16px;
-
     color: var(--BLACK);
     font-family: Montserrat;
     font-size: 20px;
@@ -800,7 +797,6 @@ img {
     font-size: 44px;
     color: var(--BLACK);
     font-family: 'Montserrat' sans-serif;
-
     font-weight: 700;
     line-height: normal;
     text-transform: uppercase;
@@ -848,9 +844,7 @@ img {
     position: absolute;
     top: 16px;
     left: 23px;
-
     color: var(--BLACK);
-
     font-family: Montserrat;
     font-size: 26px;
     font-style: normal;
@@ -895,7 +889,6 @@ img {
     font-size: 44px;
     color: var(--BLACK);
     font-family: 'Montserrat' sans-serif;
-
     font-weight: 700;
     line-height: normal;
     text-transform: uppercase;
@@ -903,7 +896,6 @@ img {
   .delivery-line-title {
     width: 100%;
     margin-left: 16px;
-
     flex-grow: 1;
     border-bottom: 1px solid rgba(0, 0, 0, 1);
   }
@@ -942,9 +934,7 @@ img {
     position: absolute;
     top: 16px;
     left: 27px;
-
     color: var(--BLACK);
-
     font-family: Montserrat;
     font-size: 26px;
     font-style: normal;
@@ -966,7 +956,6 @@ img {
     font-style: normal;
     font-weight: 500;
     line-height: normal;
-
     max-width: 855px;
     margin-left: 56px;
   }
