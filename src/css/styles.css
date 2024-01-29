@@ -191,12 +191,126 @@ img {
     display: flex;
     justify-content: center;
   }
+
+  .footer-link {
+    fill: none;
+  }
 }
 
 @media (min-width: 768px) and (max-width: 1280px) {
+  .container-footer {
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 32px 16px;
+  }
+
+  .footer-flex {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    justify-content: space-between;
+  }
+
+  .footer {
+    background: var(--BLACK);
+    color: var(--WHITE);
+  }
+
+  .footer-header {
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21.78px;
+    text-align: left;
+    padding-bottom: 18px;
+  }
+
+  .footer-content {
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16.94px;
+    text-align: left;
+    padding-bottom: 12px;
+    word-wrap: break-word;
+    max-width: auto;
+  }
+
+  .icon-footer {
+    fill: none;
+  }
+
+  .footer-container {
+    max-width: 149px;
+    flex-wrap: wrap;
+  }
+
+  .footer-container-icons {
+    display: flex;
+    justify-content: center;
+  }
+
+  .footer-link {
+    fill: none;
+  }
 }
 
 @media (min-width: 1280px) {
+  .container-footer {
+    max-width: 1232px;
+  }
+
+  .footer-flex {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    justify-content: space-between;
+    max-width: 1280px;
+  }
+
+  .footer {
+    background: var(--BLACK);
+    color: var(--WHITE);
+  }
+
+  .footer-header {
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21.78px;
+    text-align: left;
+    padding-bottom: 18px;
+  }
+
+  .footer-content {
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16.94px;
+    text-align: left;
+    padding-bottom: 12px;
+    word-wrap: break-word;
+    max-width: auto;
+  }
+
+  .icon-footer {
+    fill: none;
+  }
+
+  .footer-container {
+    max-width: 149px;
+    flex-wrap: wrap;
+  }
+
+  .footer-container-icons {
+    display: flex;
+    justify-content: center;
+  }
+
+  .footer-link {
+    fill: none;
+  }
 }
 
 /*---------------section About-mobile-----------------*/
@@ -705,7 +819,7 @@ img {
 /* KONRAD - Delivery*/
 
 @media (min-width: 320px) and (max-width: 767px) {
-  .container {
+  .container-delivery {
     width: 100%;
     max-width: 480px;
     margin: 0 auto;
@@ -792,7 +906,7 @@ img {
   }
 }
 @media (min-width: 768px) and (max-width: 1280px) {
-  .container {
+  .container-delivery {
     width: 100%;
     max-width: 768px;
     margin: 0 auto;
@@ -884,7 +998,7 @@ img {
   }
 }
 @media (min-width: 1280px) {
-  .container {
+  .container-delivery {
     width: 100%;
     max-width: 1280px;
     margin: 0 auto;
