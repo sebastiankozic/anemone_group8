@@ -87,6 +87,7 @@ img {
 .tel-button {
   background-color: transparent;
   border: transparent;
+  cursor: pointer;
 }
 
 .burger-button {
@@ -1736,6 +1737,7 @@ img {
 .tel-button {
   background-color: transparent;
   border: transparent;
+  cursor: pointer;
 }
 
 .burger-button {
