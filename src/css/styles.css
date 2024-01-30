@@ -36,26 +36,6 @@ img {
 }
 
 /* Header-mobile */
-
-.header {
-  width: 288px;
-  height: 35px;
-  margin: 16px auto;
-}
-
-.header-mobile-layout {
-  display: flex;
-  max-width: 480px;
-  justify-content: space-between;
-  align-items: center;
-  margin: auto;
-  height: 35px;
-}
-
-.header-list {
-  display: none;
-}
-
 /* section-hero */
 
 .hero {
@@ -386,7 +366,6 @@ img {
     height: 57px;
     flex-shrink: 0;
     order: -1;
-    margin-right: 80px;
   }
 
   .tel-icon {
@@ -1738,6 +1717,10 @@ img {
   display: none;
 }
 
+.header-list-link {
+  text-decoration: none;
+}
+
 .tel-button {
   background-color: transparent;
   border: transparent;
@@ -1846,7 +1829,6 @@ img {
     height: 57px;
     flex-shrink: 0;
     order: -1;
-    margin-right: 80px;
   }
 
   .tel-icon {
@@ -1920,6 +1902,11 @@ img {
     line-height: normal;
   }
 
+  .header-list {
+    gap: 48px;
+    min-width: 565px;
+  }
+
   .burger-button {
     display: none;
   }
@@ -1929,7 +1916,6 @@ img {
     height: 57px;
     flex-shrink: 0;
     order: -1;
-    margin-right: 261px;
   }
 
   .tel-icon {
@@ -1940,7 +1926,7 @@ img {
 
   /* section Hero-desktop */
   .hero {
-    max-width: 1232px;
+    max-width: 1280px;
     height: 850px;
     padding: 0 24px;
     margin: 0 auto;
