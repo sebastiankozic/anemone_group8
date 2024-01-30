@@ -793,7 +793,7 @@ img {
 @media (min-width: 320px) and (max-width: 767px) {
   .container-delivery {
     width: 100%;
-    max-width: 480px;
+    max-width: 320px;
     margin: 0 auto;
     padding: 0 15px;
   }
