@@ -1852,7 +1852,6 @@ img {
     flex-shrink: 0;
   }
 
-
   /* section Hero-tablet */
   .hero {
     max-width: 768px;
@@ -1888,7 +1887,6 @@ img {
     width: 390px;
     height: 636px;
   }
-
 }
 
 @media screen and (min-width: 1280px) {
@@ -1928,10 +1926,13 @@ img {
     height: 57px;
     flex-shrink: 0;
     order: -1;
-    margin-right: 261px;
   }
 
-  
+  .header-list {
+    gap: 48px;
+    min-width: 565px;
+  }
+
   .tel-icon {
     width: 28px;
     height: 28px;
@@ -1964,7 +1965,6 @@ img {
     width: 120px;
   }
 
-
   .main-image {
     width: 390px;
     height: 636px;
@@ -1979,8 +1979,6 @@ img {
     justify-content: center;
     gap: 110px;
   }
-
 }
 
 /* ------------koniec----------- */
-
