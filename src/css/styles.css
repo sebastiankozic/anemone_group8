@@ -886,7 +886,7 @@ img {
   }
   .delivery-section {
     background-color: var(--WHITE);
-    padding: 100px 0px;
+    padding: 0px 0px;
   }
   .list {
     list-style: none;
@@ -1538,7 +1538,7 @@ img {
 .blog-section {
   margin: 0 auto;
   max-width: 320px;
-  padding: 32px 16px;
+  padding: 0px 16px 32px;
 }
 
 .blog-title-line {
@@ -1559,6 +1559,7 @@ img {
 .flowers {
   display: flex;
   gap: 16px;
+  padding-top: 32px;
 }
 
 .icons {
@@ -1610,7 +1611,6 @@ img {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-bottom: 32px;
 }
 
 .flower-mobile-tablet {
@@ -1687,7 +1687,7 @@ img {
 @media screen and (min-width: 1158px) {
   .blog-section {
     max-width: 1232px;
-    padding: 100px 0;
+    padding: 0 0 100px;
   }
 
   .flower {
@@ -1697,6 +1697,13 @@ img {
 
   .flower-mobile-tablet {
     display: flex;
+  }
+
+  .line {
+    border-bottom: 1px solid var(--BLACK);
+    flex-grow: 1;
+    width: 100%;
+    margin-left: 16px;
   }
 
   .flowers {
@@ -1942,7 +1949,7 @@ img {
   /* section Hero-desktop */
   .hero {
     max-width: 1280px;
-    height: 850px;
+    height: 793px;
     padding: 0 24px;
     margin: 0 auto;
     position: relative;
