@@ -179,6 +179,7 @@ img {
   .footer-container-icons {
     display: flex;
     justify-content: center;
+    gap: 14px;
   }
   .footer-link {
     fill: none;
@@ -191,6 +192,9 @@ img {
     max-width: 1280px;
     margin: 0 auto;
     padding: 32px 16px;
+  }
+  .container-footer.footer-flex > ul:last-child {
+    display: inline;
   }
   .footer-flex {
     display: flex;
@@ -241,6 +245,9 @@ img {
     max-width: 1200px;
     margin: 0 auto;
     padding: 60px 16px;
+  }
+  .container-footer.footer-flex > ul:last-child {
+    display: inline;
   }
   .footer-flex {
     display: flex;
