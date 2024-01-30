@@ -979,7 +979,7 @@ img {
   }
   .delivery-section {
     background-color: var(--WHITE);
-    padding: 100px 0px;
+    padding-bottom: 100px;
   }
   .list {
     list-style: none;
@@ -1756,8 +1756,8 @@ img {
 
 .hero {
   max-width: 320px;
-  height: 395px;
-  padding: 0 16px;
+  height: 422px;
+  padding: 24px 16px 0;
   margin: 0 auto;
   position: relative;
 }
@@ -1771,7 +1771,7 @@ img {
   font-weight: 400;
   line-height: normal;
   position: absolute;
-  bottom: 100px;
+  bottom: 90px;
   left: 50%;
   transform: translateX(-50%);
 }
