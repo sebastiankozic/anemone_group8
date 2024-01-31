@@ -1614,6 +1614,11 @@ img {
   background-color: #e86f54;
   border-radius: 38px;
   border: none;
+  color: var(--WHITE);
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 24px;
+  font-family: 'Montserrat';
 }
 
 .blog-button:hover {
