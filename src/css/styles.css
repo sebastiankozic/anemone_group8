@@ -88,6 +88,8 @@ img {
   background-color: transparent;
   border: transparent;
   cursor: pointer;
+  position: relative;
+  left: 83px;
 }
 
 .burger-button {
@@ -1759,6 +1761,8 @@ img {
   background-color: transparent;
   border: transparent;
   cursor: pointer;
+  position: relative;
+  left: 83px;
 }
 
 .burger-button {
@@ -1855,6 +1859,10 @@ img {
     line-height: normal;
   }
 
+  .tel-button {
+    position: unset;
+  }
+
   .burger-button {
     display: none;
   }
@@ -1936,6 +1944,10 @@ img {
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+  }
+
+  .tel-button {
+    position: unset;
   }
 
   .burger-button {
