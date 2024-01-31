@@ -814,7 +814,7 @@ img {
   }
   .delivery-section {
     background-color: var(--WHITE);
-    padding: 60px 0px;
+    padding-bottom: 60px;
   }
   .list {
     list-style: none;
