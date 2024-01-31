@@ -1615,7 +1615,7 @@ img {
   border-radius: 38px;
   border: none;
   color: var(--WHITE);
-  font-size: 28px;
+  font-size: 18px;
   font-weight: 500;
   line-height: 24px;
   font-family: 'Montserrat';
@@ -1694,6 +1694,7 @@ img {
     width: 280px;
     height: 64px;
     padding: 16px 32px;
+    font-size: 28px;
     justify-content: center;
     align-items: center;
     background-color: #e86f54;
